@@ -1,3 +1,6 @@
+from mido import Message
+import mido
+
 class Note:
 
     def __init__(self, instrument, note, velocity, time_delta = None, absolute_start = None):
@@ -11,11 +14,14 @@ class Note:
     def add_duration(self, current_time):
         self.duration = current_time - self.absolute_start
 
+    def get_absolute_end(self):
+        return self.absolute_start + self.duration
+
     def get_note_on(self, time_delta):
-        return mido.Message('note_on', self.channel, self.note, self.velocity, time_delta)
+        return mido.Message('note_on', channel=self.instrument, note=self.note, velocity=self.velocity, time=time_delta)
 
     def get_note_off(self, time_delta):
-        return mido.Message('note_off', self.channel, self.note, self.velocity, time_delta)
+        return mido.Message('note_off', self.instrument, self.note, self.velocity, time_delta)
 
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
