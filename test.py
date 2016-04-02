@@ -4,7 +4,7 @@ from mido.midifiles import MidiTrack
 with MidiFile() as new_mid:
     new_track = MidiTrack()
 
-    mid = MidiFile('tnfdm.mid')
+    mid = MidiFile('midi/someone-like-you.mid')
 
     print('mid', mid)
     for i, track in enumerate(mid.tracks):
