@@ -192,7 +192,7 @@ note_off channel=4 note=67 velocity=0 time=31
 note_off channel=4 note=70 velocity=0 time=0
 note_off channel=1 note=32 velocity=0 time=126
 note_off channel=10 note=46 velocity=0 time=8
-note_on channel=1 note=32 velocity=118 time=1e
+note_on channel=1 note=32 velocity=118 time=1
 note_on channel=7 note=63 velocity=116 time=0
 note_on channel=4 note=72 velocity=116 time=0
 note_on channel=8 note=43 velocity=120 time=0

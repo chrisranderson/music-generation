@@ -1,9 +1,3 @@
-using CUDA on GPU 0...	
-Make sure that your saved checkpoint was also trained with GPU. If it was trained with CPU use -gpuid -1 for sampling as well	
-creating an lstm...	
-missing seed text, using uniform probability over first character	
---------------------------	
-innel=4 note=65 velocity=106 time=0
 note_on channel=7 note=70 velocity=93 time=0
 note_on channel=8 note=53 velocity=90 time=0
 note_on channel=8 note=56 velocity=127 time=0
@@ -198,7 +192,7 @@ note_off channel=4 note=67 velocity=0 time=31
 note_off channel=4 note=70 velocity=0 time=0
 note_off channel=1 note=32 velocity=0 time=126
 note_off channel=10 note=46 velocity=0 time=8
-note_on channel=1 note=32 velocity=118 time=1e
+note_on channel=1 note=32 velocity=118 time=1
 note_on channel=7 note=63 velocity=116 time=0
 note_on channel=4 note=72 velocity=116 time=0
 note_on channel=8 note=43 velocity=120 time=0
