@@ -1,5 +1,6 @@
 from mido import MidiFile
 from mido.midifiles import MidiTrack
+import os
 
 def good_message(message):
     excludes = [
@@ -15,23 +16,18 @@ def good_message(message):
    
     return True
 
-output_file = open('output_text', 'w')
+for fileName in os.listdir('midi'):
+    output_file = open('LearningText/' + fileName + '.txt', 'w')
 
-with MidiFile() as new_mid:
-    # new_track = MidiTrack()
-    mid = MidiFile('midi/rolling.mid')
-    total_text = ''
+    with MidiFile() as new_mid:
+        # new_track = MidiTrack()
+        mid = MidiFile('midi/' + fileName)
+        total_text = ''
 
-    for i, track in enumerate(mid.tracks):
-        for message in track:
-            if good_message(str(message)):
-                total_text += (str(message) + '\n')
-                print('message', str(message))
-            # new_track.append(message)
+        for i, track in enumerate(mid.tracks):
+            for message in track:
+                if good_message(str(message)):
+                    total_text += (str(message) + '\n')
 
-    # new_mid.tracks.append(new_track)
-
-    # new_mid.save('new_song.mid')
-
-output_file.write(total_text)
-output_file.close()
+    output_file.write(total_text)
+    output_file.close()

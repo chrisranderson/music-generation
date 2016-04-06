@@ -5,10 +5,7 @@ from mido import Message
 with MidiFile() as new_mid:
     new_track = MidiTrack()
 
-    mid = MidiFile('midi/rolling.mid')
-
-    print('mid', mid)
-    with open("music.txt") as f:
+    with open("waldstein_1_out.txt") as f:
         for line in f:
             parts = line.split()
             if parts[0] == "pitchwheel":
