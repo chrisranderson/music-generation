@@ -7,7 +7,7 @@ import datetime
 with MidiFile() as new_mid:
     new_track = MidiTrack()
 
-    with open("generated-music/first-long-train.txt") as f:
+    with open("generated-music/first-long-trainseed1.txt") as f:
         for line in f:
             new_track.append(Message('control_change', channel=0, control=64, value=0, time=0))
 
