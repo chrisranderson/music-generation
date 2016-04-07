@@ -15,23 +15,18 @@ def good_message(message):
    
     return True
 
-# for fileName in os.listdir('midi'):
-# output_file = open('LearningText/' + fileName + '.txt', 'w')\
+for filename in os.listdir('midi'):
+    output_file = open('LearningText/' + filename + '.txt', 'w')\
 
-filename = 'appass_1_format0.mid'
+    with MidiFile() as new_mid:
+        # new_track = MidiTrack()
+        mid = MidiFile('midi/' + filename)
+        total_text = ''
 
-output_file = open('LearningText/' + filename + '.txt', 'w')
+        for i, track in enumerate(mid.tracks):
+            for message in track:
+                if good_message(str(message)):
+                    total_text += (str(message) + '\n')
 
-with MidiFile() as new_mid:
-    # new_track = MidiTrack()
-    mid = MidiFile('midi/' + filename)
-    total_text = ''
-
-    for i, track in enumerate(mid.tracks):
-        for message in track:
-            print(message)
-            if good_message(str(message)):
-                total_text += (str(message) + '\n')
-
-output_file.write(total_text)
-output_file.close()
+    output_file.write(total_text)
+    output_file.close()
