@@ -1,3 +1,5 @@
-class Generator:
+from music import Music
 
-    def __init__(self):
+music = Music()
+music.load_song('Rollinginthedeep.mid')
+music.write_arff('test')

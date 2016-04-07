@@ -15,13 +15,13 @@ def good_message(message):
    
     return True
 
+total_text = ''
+output_file = open('LearningText/all.txt', 'w')
 for fileName in os.listdir('midi'):
-    output_file = open('LearningText/' + fileName + '.txt', 'w')
 
     with MidiFile() as new_mid:
         # new_track = MidiTrack()
         mid = MidiFile('midi/' + fileName)
-        total_text = ''
 
         for i, track in enumerate(mid.tracks):
             for message in track:
@@ -45,5 +45,5 @@ for fileName in os.listdir('midi'):
 
                     total_text += '\n'
 
-    output_file.write(total_text)
-    output_file.close()
+output_file.write(total_text)
+output_file.close()

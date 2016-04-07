@@ -1,0 +1,15 @@
+April 2: one song, not sure about parameters
+April 6: all the beethoven songs, 12MB. 
+
+"with 6MB you can easily go up to rnn_size 300 or even more".
+Maybe try seq_length longer so it can find dependencies
+Could try with lower temperature to get more sane results: 
+should change the num_layers to be 2 or 3
+if 
+
+th train.lua -data_dir data/music/ -rnn_size 600 -num_layers 3 -dropout 0.1
+lm_lstm_epoch0.92_0.1778.t7
+
+
+th train.lua -data_dir data/music/ -rnn_size 600 -num_layers 3 -dropout 0.5 -seq_length 200
+

@@ -10,7 +10,6 @@ class Note:
         self.time_delta = time_delta
         self.absolute_start = absolute_start
 
-
     def add_duration(self, current_time):
         self.duration = current_time - self.absolute_start
 
@@ -22,6 +21,9 @@ class Note:
 
     def get_note_off(self, time_delta):
         return mido.Message('note_off', self.instrument, self.note, self.velocity, time_delta)
+
+    def get_note_array(self):
+        return [self.instrument, self.note, self.velocity, self.duration, self.time_delta]
 
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
