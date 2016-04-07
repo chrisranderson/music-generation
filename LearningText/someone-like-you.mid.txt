@@ -1,5 +1,43 @@
+control_change channel=3 control=121 value=0 time=362
+control_change channel=4 control=121 value=0 time=0
+control_change channel=15 control=121 value=0 time=0
+control_change channel=2 control=121 value=0 time=79
 pitchwheel channel=15 pitch=0 time=48
+control_change channel=15 control=11 value=127 time=50
+control_change channel=15 control=7 value=100 time=16
+control_change channel=2 control=32 value=0 time=1
+control_change channel=2 control=0 value=0 time=0
+control_change channel=15 control=10 value=64 time=9
+control_change channel=15 control=91 value=0 time=13
+control_change channel=3 control=32 value=0 time=14
+control_change channel=3 control=0 value=0 time=0
+control_change channel=4 control=32 value=0 time=0
+control_change channel=4 control=0 value=0 time=0
+control_change channel=15 control=93 value=0 time=2
+control_change channel=2 control=7 value=100 time=50
+control_change channel=9 control=121 value=0 time=9
+control_change channel=9 control=93 value=24 time=10
+control_change channel=9 control=91 value=48 time=5
+control_change channel=9 control=11 value=127 time=5
+control_change channel=9 control=7 value=103 time=5
+control_change channel=3 control=7 value=109 time=5
+control_change channel=4 control=7 value=100 time=0
 pitchwheel channel=9 pitch=0 time=0
+control_change channel=2 control=10 value=54 time=2
+control_change channel=2 control=11 value=127 time=30
+control_change channel=3 control=10 value=64 time=7
+control_change channel=4 control=10 value=64 time=0
+control_change channel=2 control=91 value=80 time=18
+control_change channel=3 control=11 value=127 time=20
+control_change channel=4 control=11 value=127 time=0
+control_change channel=2 control=93 value=0 time=12
+control_change channel=3 control=91 value=80 time=13
+control_change channel=4 control=91 value=80 time=0
+control_change channel=2 control=94 value=0 time=27
+control_change channel=3 control=93 value=0 time=5
+control_change channel=4 control=93 value=0 time=0
+control_change channel=3 control=94 value=0 time=40
+control_change channel=4 control=94 value=0 time=0
 note_on channel=9 note=42 velocity=87 time=868
 note_on channel=9 note=42 velocity=0 time=86
 note_on channel=9 note=42 velocity=75 time=394
@@ -12,6 +50,7 @@ note_on channel=2 note=45 velocity=67 time=387
 note_on channel=2 note=52 velocity=67 time=0
 note_on channel=2 note=57 velocity=67 time=0
 note_on channel=2 note=61 velocity=67 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=64 velocity=71 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -47,7 +86,9 @@ note_on channel=2 note=61 velocity=0 time=82
 note_on channel=2 note=44 velocity=71 time=38
 note_on channel=2 note=52 velocity=71 time=0
 note_on channel=2 note=56 velocity=71 time=0
+control_change channel=2 control=64 value=0 time=12
 note_on channel=2 note=61 velocity=65 time=108
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=64 velocity=71 time=0
 note_on channel=2 note=61 velocity=65 time=120
@@ -83,7 +124,9 @@ note_on channel=2 note=61 velocity=0 time=90
 note_on channel=2 note=42 velocity=72 time=21
 note_on channel=2 note=49 velocity=72 time=0
 note_on channel=2 note=54 velocity=72 time=0
+control_change channel=2 control=64 value=0 time=29
 note_on channel=2 note=61 velocity=68 time=91
+control_change channel=2 control=64 value=127 time=56
 note_on channel=2 note=61 velocity=0 time=19
 note_on channel=2 note=66 velocity=75 time=45
 note_on channel=2 note=54 velocity=0 time=54
@@ -120,7 +163,9 @@ note_on channel=2 note=38 velocity=76 time=6
 note_on channel=2 note=45 velocity=76 time=0
 note_on channel=2 note=50 velocity=76 time=0
 note_on channel=2 note=57 velocity=76 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=62 velocity=75 time=102
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=66 velocity=74 time=67
 note_on channel=2 note=62 velocity=0 time=25
 note_on channel=2 note=57 velocity=0 time=95
@@ -229,10 +274,12 @@ note_on channel=2 note=38 velocity=0 time=27
 note_on channel=2 note=50 velocity=0 time=5
 note_on channel=2 note=45 velocity=0 time=0
 note_on channel=2 note=62 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=2 note=45 velocity=78 time=9
 note_on channel=2 note=52 velocity=78 time=0
 note_on channel=2 note=57 velocity=78 time=0
 note_on channel=2 note=61 velocity=72 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=3 note=76 velocity=0 time=48
 note_on channel=2 note=64 velocity=76 time=0
 note_on channel=3 note=73 velocity=86 time=0
@@ -276,8 +323,10 @@ note_on channel=2 note=44 velocity=75 time=4
 note_on channel=2 note=52 velocity=77 time=0
 note_on channel=2 note=56 velocity=75 time=0
 note_on channel=3 note=66 velocity=63 time=0
+control_change channel=2 control=64 value=0 time=12
 note_on channel=3 note=66 velocity=0 time=104
 note_on channel=2 note=61 velocity=70 time=4
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=64 velocity=74 time=0
 note_on channel=2 note=61 velocity=70 time=120
@@ -324,8 +373,10 @@ note_on channel=2 note=42 velocity=75 time=4
 note_on channel=2 note=49 velocity=75 time=0
 note_on channel=2 note=54 velocity=75 time=0
 note_on channel=3 note=66 velocity=62 time=0
+control_change channel=2 control=64 value=0 time=29
 note_on channel=3 note=66 velocity=0 time=87
 note_on channel=2 note=61 velocity=71 time=4
+control_change channel=2 control=64 value=127 time=56
 note_on channel=2 note=61 velocity=0 time=19
 note_on channel=2 note=66 velocity=72 time=45
 note_on channel=2 note=54 velocity=0 time=54
@@ -372,8 +423,10 @@ note_on channel=2 note=38 velocity=76 time=4
 note_on channel=2 note=45 velocity=76 time=0
 note_on channel=2 note=54 velocity=76 time=0
 note_on channel=3 note=66 velocity=61 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=3 note=66 velocity=0 time=98
 note_on channel=2 note=62 velocity=71 time=4
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=66 velocity=74 time=67
 note_on channel=2 note=62 velocity=0 time=25
 note_on channel=2 note=54 velocity=0 time=95
@@ -415,10 +468,12 @@ note_on channel=3 note=69 velocity=84 time=0
 note_on channel=2 note=38 velocity=0 time=27
 note_on channel=2 note=45 velocity=0 time=5
 note_on channel=2 note=62 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=2 note=45 velocity=75 time=9
 note_on channel=2 note=52 velocity=75 time=0
 note_on channel=2 note=57 velocity=75 time=0
 note_on channel=2 note=61 velocity=72 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=64 velocity=76 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -517,6 +572,7 @@ note_on channel=2 note=52 velocity=77 time=0
 note_on channel=2 note=56 velocity=75 time=0
 note_on channel=3 note=77 velocity=86 time=0
 pitchwheel channel=3 pitch=567 time=0
+control_change channel=2 control=64 value=0 time=12
 pitchwheel channel=3 pitch=729 time=35
 pitchwheel channel=3 pitch=891 time=21
 pitchwheel channel=3 pitch=1053 time=15
@@ -528,6 +584,7 @@ pitchwheel channel=3 pitch=1702 time=8
 pitchwheel channel=3 pitch=1864 time=8
 pitchwheel channel=3 pitch=2027 time=8
 pitchwheel channel=3 pitch=2189 time=9
+control_change channel=2 control=64 value=127 time=7
 pitchwheel channel=3 pitch=2351 time=1
 pitchwheel channel=3 pitch=2513 time=7
 pitchwheel channel=3 pitch=2675 time=7
@@ -668,7 +725,9 @@ note_on channel=2 note=42 velocity=73 time=0
 note_on channel=2 note=49 velocity=73 time=0
 note_on channel=2 note=54 velocity=73 time=0
 note_on channel=3 note=66 velocity=86 time=0
+control_change channel=2 control=64 value=0 time=29
 note_on channel=2 note=61 velocity=68 time=91
+control_change channel=2 control=64 value=127 time=56
 note_on channel=2 note=61 velocity=0 time=19
 note_on channel=3 note=66 velocity=0 time=21
 note_on channel=2 note=66 velocity=72 time=0
@@ -718,9 +777,11 @@ note_on channel=2 note=38 velocity=76 time=0
 note_on channel=2 note=45 velocity=76 time=0
 note_on channel=2 note=54 velocity=76 time=0
 note_on channel=3 note=71 velocity=85 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=3 note=71 velocity=0 time=98
 note_on channel=2 note=62 velocity=71 time=0
 note_on channel=3 note=69 velocity=74 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=69 velocity=0 time=63
 note_on channel=2 note=66 velocity=74 time=0
 note_on channel=3 note=71 velocity=83 time=0
@@ -763,6 +824,7 @@ note_on channel=2 note=62 velocity=0 time=27
 pitchwheel channel=3 pitch=-3787 time=12
 pitchwheel channel=3 pitch=-3649 time=2
 pitchwheel channel=3 pitch=-3512 time=28
+control_change channel=2 control=64 value=0 time=10
 pitchwheel channel=3 pitch=-3374 time=2
 note_on channel=2 note=45 velocity=78 time=7
 note_on channel=2 note=52 velocity=78 time=0
@@ -793,6 +855,7 @@ pitchwheel channel=3 pitch=-208 time=3
 pitchwheel channel=3 pitch=-70 time=3
 pitchwheel channel=3 pitch=0 time=3
 note_on channel=2 note=61 velocity=72 time=18
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=64 velocity=76 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -887,7 +950,9 @@ note_on channel=2 note=61 velocity=0 time=82
 note_on channel=2 note=44 velocity=75 time=19
 note_on channel=2 note=52 velocity=77 time=0
 note_on channel=2 note=56 velocity=75 time=0
+control_change channel=2 control=64 value=0 time=12
 note_on channel=2 note=61 velocity=70 time=108
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=64 velocity=74 time=0
 note_on channel=3 note=76 velocity=0 time=100
@@ -1065,7 +1130,9 @@ note_on channel=2 note=42 velocity=76 time=0
 note_on channel=2 note=49 velocity=76 time=0
 note_on channel=2 note=54 velocity=73 time=0
 note_on channel=3 note=66 velocity=86 time=0
+control_change channel=2 control=64 value=0 time=29
 note_on channel=2 note=61 velocity=78 time=91
+control_change channel=2 control=64 value=127 time=56
 note_on channel=2 note=61 velocity=0 time=19
 note_on channel=3 note=66 velocity=0 time=22
 note_on channel=2 note=66 velocity=78 time=0
@@ -1116,6 +1183,7 @@ note_on channel=2 note=45 velocity=81 time=0
 note_on channel=2 note=54 velocity=81 time=0
 note_on channel=3 note=71 velocity=87 time=0
 pitchwheel channel=3 pitch=-1 time=0
+control_change channel=2 control=64 value=0 time=18
 pitchwheel channel=3 pitch=-415 time=0
 pitchwheel channel=3 pitch=-580 time=1
 pitchwheel channel=3 pitch=-746 time=1
@@ -1232,6 +1300,7 @@ pitchwheel channel=3 pitch=-3228 time=1
 pitchwheel channel=3 pitch=-2897 time=1
 pitchwheel channel=3 pitch=-2731 time=1
 pitchwheel channel=3 pitch=-2566 time=2
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-2401 time=0
 pitchwheel channel=3 pitch=-2401 time=1
 pitchwheel channel=3 pitch=-2235 time=1
@@ -1290,13 +1359,16 @@ note_on channel=2 note=57 velocity=79 time=4
 note_on channel=2 note=38 velocity=0 time=8
 note_on channel=2 note=45 velocity=0 time=5
 note_on channel=2 note=57 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=2 note=40 velocity=76 time=0
 note_on channel=2 note=47 velocity=76 time=0
 note_on channel=2 note=54 velocity=76 time=0
 note_on channel=3 note=71 velocity=89 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=3 note=71 velocity=0 time=98
 note_on channel=2 note=56 velocity=75 time=0
 note_on channel=3 note=73 velocity=80 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=73 velocity=0 time=45
 note_on channel=2 note=64 velocity=74 time=0
 note_on channel=3 note=73 velocity=82 time=0
@@ -1328,6 +1400,8 @@ note_on channel=2 note=42 velocity=76 time=0
 note_on channel=2 note=49 velocity=76 time=0
 note_on channel=2 note=54 velocity=75 time=0
 note_on channel=3 note=71 velocity=94 time=0
+control_change channel=2 control=64 value=0 time=51
+control_change channel=2 control=64 value=127 time=52
 note_on channel=2 note=57 velocity=74 time=17
 note_on channel=2 note=54 velocity=0 time=15
 note_on channel=3 note=71 velocity=0 time=75
@@ -1360,7 +1434,10 @@ note_on channel=2 note=57 velocity=0 time=27
 note_on channel=2 note=38 velocity=76 time=61
 note_on channel=2 note=45 velocity=76 time=0
 note_on channel=2 note=54 velocity=76 time=0
+control_change channel=2 control=64 value=0 time=18
+control_change channel=2 control=64 value=0 time=42
 note_on channel=2 note=57 velocity=71 time=60
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=69 velocity=0 time=61
 note_on channel=2 note=62 velocity=74 time=0
 note_on channel=3 note=71 velocity=87 time=0
@@ -1417,14 +1494,17 @@ note_on channel=3 note=69 velocity=83 time=0
 note_on channel=2 note=38 velocity=0 time=27
 note_on channel=2 note=45 velocity=0 time=5
 note_on channel=2 note=57 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=3 note=69 velocity=0 time=5
 note_on channel=2 note=40 velocity=76 time=0
 note_on channel=2 note=47 velocity=76 time=0
 note_on channel=2 note=54 velocity=76 time=0
 note_on channel=3 note=71 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=3 note=71 velocity=0 time=98
 note_on channel=2 note=56 velocity=71 time=0
 note_on channel=3 note=73 velocity=78 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=73 velocity=0 time=47
 note_on channel=2 note=64 velocity=74 time=0
 note_on channel=3 note=73 velocity=86 time=0
@@ -1454,6 +1534,8 @@ note_on channel=2 note=42 velocity=76 time=0
 note_on channel=2 note=49 velocity=76 time=0
 note_on channel=2 note=54 velocity=75 time=0
 note_on channel=3 note=71 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=32
+control_change channel=2 control=64 value=127 time=28
 note_on channel=3 note=71 velocity=0 time=56
 note_on channel=2 note=57 velocity=74 time=0
 note_on channel=3 note=69 velocity=85 time=0
@@ -1490,7 +1572,9 @@ note_on channel=2 note=38 velocity=74 time=0
 note_on channel=2 note=45 velocity=74 time=0
 note_on channel=2 note=54 velocity=74 time=0
 note_on channel=3 note=66 velocity=76 time=0
+control_change channel=2 control=64 value=0 time=57
 note_on channel=2 note=57 velocity=73 time=63
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=66 velocity=70 time=67
 note_on channel=2 note=57 velocity=0 time=25
 note_on channel=2 note=54 velocity=0 time=95
@@ -1582,8 +1666,11 @@ note_on channel=2 note=64 velocity=54 time=14
 note_on channel=2 note=64 velocity=0 time=116
 note_on channel=2 note=56 velocity=52 time=4
 note_on channel=2 note=56 velocity=0 time=59
+control_change channel=2 control=64 value=0 time=52
 note_on channel=2 note=54 velocity=54 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=57 velocity=51 time=102
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=66 velocity=51 time=67
 note_on channel=2 note=57 velocity=0 time=25
 note_on channel=2 note=54 velocity=0 time=95
@@ -1601,11 +1688,13 @@ note_on channel=2 note=57 velocity=41 time=4
 note_on channel=2 note=45 velocity=0 time=1
 note_on channel=2 note=66 velocity=0 time=8
 note_on channel=2 note=57 velocity=0 time=77
+control_change channel=2 control=64 value=0 time=5
 note_on channel=2 note=33 velocity=95 time=0
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=81 velocity=101 time=0
+control_change channel=2 control=64 value=127 time=68
 note_on channel=3 note=81 velocity=0 time=29
 note_on channel=2 note=69 velocity=93 time=0
 note_on channel=3 note=81 velocity=99 time=0
@@ -1678,9 +1767,11 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=47 velocity=95 time=0
 note_on channel=2 note=56 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=80 velocity=0 time=16
 note_on channel=2 note=59 velocity=92 time=4
 note_on channel=3 note=78 velocity=82 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=3 note=78 velocity=0 time=7
 note_on channel=2 note=68 velocity=90 time=5
@@ -1742,9 +1833,11 @@ pitchwheel channel=3 pitch=-503 time=1
 pitchwheel channel=3 pitch=-503 time=1
 pitchwheel channel=3 pitch=-168 time=1
 pitchwheel channel=3 pitch=0 time=1
+control_change channel=2 control=64 value=0 time=43
 note_on channel=3 note=81 velocity=0 time=69
 note_on channel=2 note=61 velocity=87 time=0
 note_on channel=3 note=78 velocity=99 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=87 time=120
@@ -1915,12 +2008,14 @@ pitchwheel channel=3 pitch=-1338 time=1
 pitchwheel channel=3 pitch=-1338 time=2
 pitchwheel channel=3 pitch=-1004 time=4
 pitchwheel channel=3 pitch=-837 time=1
+control_change channel=2 control=64 value=0 time=2
 pitchwheel channel=3 pitch=-670 time=0
 pitchwheel channel=3 pitch=-503 time=2
 pitchwheel channel=3 pitch=-335 time=1
 pitchwheel channel=3 pitch=-168 time=2
 pitchwheel channel=3 pitch=-1 time=2
 note_on channel=2 note=62 velocity=89 time=55
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -1942,6 +2037,7 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=80 velocity=0 time=17
+control_change channel=2 control=64 value=0 time=1
 note_on channel=2 note=33 velocity=95 time=0
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
@@ -1949,6 +2045,7 @@ note_on channel=3 note=81 velocity=100 time=0
 note_on channel=3 note=81 velocity=0 time=116
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=76 velocity=96 time=0
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=93 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -2004,7 +2101,9 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=52 velocity=95 time=0
 note_on channel=2 note=59 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=64 velocity=92 time=20
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=64 velocity=0 time=55
 note_on channel=3 note=80 velocity=0 time=6
 note_on channel=2 note=68 velocity=90 time=6
@@ -2059,7 +2158,9 @@ note_on channel=2 note=42 velocity=92 time=0
 note_on channel=2 note=49 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=78 velocity=100 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=2 note=61 velocity=90 time=73
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=87 time=120
@@ -2081,7 +2182,9 @@ note_on channel=2 note=38 velocity=92 time=0
 note_on channel=2 note=50 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=81 velocity=100 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=89 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -2165,6 +2268,7 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=85 velocity=0 time=3
+control_change channel=2 control=64 value=0 time=15
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=52 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
@@ -2172,6 +2276,7 @@ note_on channel=3 note=85 velocity=100 time=0
 note_on channel=2 note=61 velocity=89 time=120
 note_on channel=3 note=85 velocity=0 time=29
 note_on channel=3 note=85 velocity=100 time=0
+control_change channel=2 control=64 value=127 time=23
 note_on channel=2 note=69 velocity=93 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -2227,6 +2332,7 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=52 velocity=95 time=0
 note_on channel=2 note=56 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=59 velocity=92 time=20
 pitchwheel channel=3 pitch=-1 time=2
 pitchwheel channel=3 pitch=-135 time=15
@@ -2241,6 +2347,7 @@ pitchwheel channel=3 pitch=-1210 time=2
 pitchwheel channel=3 pitch=-1344 time=2
 pitchwheel channel=3 pitch=-1478 time=2
 pitchwheel channel=3 pitch=-1612 time=2
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-1747 time=1
 pitchwheel channel=3 pitch=-1881 time=2
 pitchwheel channel=3 pitch=-2015 time=2
@@ -2332,6 +2439,7 @@ pitchwheel channel=3 pitch=-7118 time=3
 pitchwheel channel=3 pitch=-6984 time=2
 pitchwheel channel=3 pitch=-6850 time=3
 pitchwheel channel=3 pitch=-6715 time=2
+control_change channel=2 control=64 value=0 time=3
 pitchwheel channel=3 pitch=-6581 time=0
 pitchwheel channel=3 pitch=-6447 time=3
 pitchwheel channel=3 pitch=-6312 time=1
@@ -2384,6 +2492,7 @@ pitchwheel channel=3 pitch=-135 time=1
 pitchwheel channel=3 pitch=-1 time=1
 pitchwheel channel=3 pitch=0 time=1
 note_on channel=2 note=61 velocity=87 time=3
+control_change channel=2 control=64 value=127 time=40
 note_on channel=3 note=85 velocity=0 time=4
 pitchwheel channel=3 pitch=-8192 time=14
 pitchwheel channel=3 pitch=-8058 time=1
@@ -2581,7 +2690,9 @@ note_on channel=2 note=38 velocity=88 time=4
 note_on channel=2 note=50 velocity=88 time=0
 note_on channel=2 note=57 velocity=88 time=0
 note_on channel=3 note=78 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=88 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=87 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -2605,11 +2716,13 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=81 velocity=0 time=2
+control_change channel=2 control=64 value=0 time=16
 note_on channel=2 note=33 velocity=91 time=0
 note_on channel=2 note=45 velocity=91 time=0
 note_on channel=2 note=57 velocity=91 time=0
 note_on channel=3 note=81 velocity=99 time=0
 note_on channel=2 note=61 velocity=83 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=86 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -2637,9 +2750,11 @@ note_on channel=2 note=40 velocity=88 time=0
 note_on channel=2 note=47 velocity=88 time=0
 note_on channel=2 note=59 velocity=86 time=0
 note_on channel=3 note=78 velocity=97 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=78 velocity=0 time=16
 note_on channel=2 note=64 velocity=85 time=0
 note_on channel=3 note=76 velocity=97 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=64 velocity=0 time=55
 note_on channel=2 note=68 velocity=83 time=12
 note_on channel=2 note=59 velocity=0 time=53
@@ -2785,6 +2900,7 @@ note_on channel=2 note=64 velocity=0 time=3
 note_on channel=2 note=42 velocity=85 time=38
 note_on channel=2 note=49 velocity=87 time=0
 note_on channel=2 note=57 velocity=85 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=3 note=78 velocity=0 time=54
 pitchwheel channel=3 pitch=-8192 time=13
 pitchwheel channel=3 pitch=-8058 time=1
@@ -2798,6 +2914,7 @@ pitchwheel channel=3 pitch=-7387 time=4
 pitchwheel channel=3 pitch=-7252 time=3
 pitchwheel channel=3 pitch=-7118 time=3
 pitchwheel channel=3 pitch=-6984 time=3
+control_change channel=2 control=64 value=127 time=2
 pitchwheel channel=3 pitch=-6850 time=1
 pitchwheel channel=3 pitch=-6715 time=3
 pitchwheel channel=3 pitch=-6581 time=1
@@ -2974,12 +3091,14 @@ pitchwheel channel=3 pitch=-672 time=1
 pitchwheel channel=3 pitch=-672 time=1
 pitchwheel channel=3 pitch=-538 time=1
 pitchwheel channel=3 pitch=-270 time=1
+control_change channel=2 control=64 value=0 time=1
 pitchwheel channel=3 pitch=-270 time=0
 pitchwheel channel=3 pitch=-270 time=2
 pitchwheel channel=3 pitch=-135 time=1
 pitchwheel channel=3 pitch=-1 time=1
 pitchwheel channel=3 pitch=0 time=1
 note_on channel=2 note=62 velocity=82 time=57
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=3 note=78 velocity=0 time=11
 note_on channel=2 note=66 velocity=84 time=3
@@ -3003,11 +3122,13 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=81 velocity=0 time=2
+control_change channel=2 control=64 value=0 time=16
 note_on channel=2 note=33 velocity=85 time=0
 note_on channel=2 note=45 velocity=85 time=0
 note_on channel=2 note=57 velocity=85 time=0
 note_on channel=3 note=81 velocity=98 time=0
 note_on channel=2 note=61 velocity=82 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=64 velocity=86 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -3035,9 +3156,11 @@ note_on channel=2 note=40 velocity=85 time=0
 note_on channel=2 note=47 velocity=85 time=0
 note_on channel=2 note=56 velocity=85 time=0
 note_on channel=3 note=76 velocity=91 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=76 velocity=0 time=16
 note_on channel=2 note=59 velocity=85 time=0
 note_on channel=3 note=73 velocity=92 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=2 note=64 velocity=83 time=12
 note_on channel=2 note=56 velocity=0 time=53
@@ -3096,9 +3219,11 @@ note_on channel=2 note=59 velocity=0 time=3
 note_on channel=2 note=42 velocity=85 time=38
 note_on channel=2 note=49 velocity=85 time=0
 note_on channel=2 note=57 velocity=85 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=3 note=69 velocity=0 time=54
 note_on channel=2 note=61 velocity=76 time=0
 note_on channel=3 note=69 velocity=87 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=66 velocity=77 time=0
 note_on channel=2 note=61 velocity=76 time=120
@@ -3120,7 +3245,9 @@ note_on channel=2 note=38 velocity=76 time=0
 note_on channel=2 note=45 velocity=76 time=0
 note_on channel=2 note=57 velocity=76 time=0
 note_on channel=3 note=71 velocity=87 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=73 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=3 note=71 velocity=0 time=11
 note_on channel=2 note=66 velocity=73 time=3
@@ -3152,6 +3279,7 @@ note_on channel=2 note=62 velocity=0 time=94
 note_on channel=2 note=66 velocity=95 time=26
 note_on channel=2 note=57 velocity=0 time=80
 note_on channel=2 note=62 velocity=81 time=40
+control_change channel=2 control=64 value=0 time=0
 note_on channel=2 note=66 velocity=0 time=9
 note_on channel=2 note=38 velocity=0 time=54
 note_on channel=2 note=45 velocity=0 time=16
@@ -3160,6 +3288,7 @@ note_on channel=2 note=45 velocity=79 time=0
 note_on channel=2 note=52 velocity=79 time=0
 note_on channel=2 note=57 velocity=75 time=0
 note_on channel=2 note=61 velocity=75 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=64 velocity=79 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -3237,7 +3366,9 @@ note_on channel=3 note=69 velocity=0 time=34
 note_on channel=2 note=44 velocity=78 time=4
 note_on channel=2 note=52 velocity=80 time=0
 note_on channel=2 note=56 velocity=78 time=0
+control_change channel=2 control=64 value=0 time=12
 note_on channel=2 note=61 velocity=73 time=108
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=64 velocity=77 time=0
 pitchwheel channel=3 pitch=-4166 time=110
@@ -3355,7 +3486,9 @@ note_on channel=3 note=71 velocity=0 time=17
 note_on channel=2 note=42 velocity=76 time=4
 note_on channel=2 note=49 velocity=76 time=0
 note_on channel=2 note=54 velocity=76 time=0
+control_change channel=2 control=64 value=0 time=29
 note_on channel=2 note=61 velocity=71 time=91
+control_change channel=2 control=64 value=127 time=56
 note_on channel=2 note=61 velocity=0 time=19
 note_on channel=2 note=66 velocity=75 time=45
 note_on channel=2 note=54 velocity=0 time=54
@@ -3404,6 +3537,7 @@ note_on channel=2 note=38 velocity=79 time=0
 note_on channel=2 note=50 velocity=79 time=0
 note_on channel=2 note=54 velocity=79 time=0
 note_on channel=3 note=74 velocity=91 time=0
+control_change channel=2 control=64 value=0 time=18
 pitchwheel channel=3 pitch=-3712 time=5
 pitchwheel channel=3 pitch=-3572 time=15
 pitchwheel channel=3 pitch=-3432 time=9
@@ -3433,6 +3567,7 @@ pitchwheel channel=3 pitch=-351 time=4
 pitchwheel channel=3 pitch=-211 time=2
 pitchwheel channel=3 pitch=-71 time=4
 pitchwheel channel=3 pitch=0 time=3
+control_change channel=2 control=64 value=127 time=7
 note_on channel=2 note=66 velocity=77 time=67
 note_on channel=2 note=62 velocity=0 time=25
 note_on channel=2 note=54 velocity=0 time=95
@@ -3513,11 +3648,13 @@ note_on channel=2 note=38 velocity=0 time=27
 note_on channel=2 note=50 velocity=0 time=5
 note_on channel=2 note=62 velocity=0 time=27
 note_on channel=3 note=69 velocity=0 time=38
+control_change channel=2 control=64 value=0 time=14
 note_on channel=2 note=33 velocity=81 time=0
 note_on channel=2 note=45 velocity=81 time=0
 note_on channel=2 note=57 velocity=81 time=0
 note_on channel=3 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=79 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=64 velocity=79 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -3621,7 +3758,9 @@ note_on channel=3 note=69 velocity=0 time=34
 note_on channel=2 note=32 velocity=80 time=4
 note_on channel=2 note=44 velocity=78 time=0
 note_on channel=2 note=56 velocity=78 time=0
+control_change channel=2 control=64 value=0 time=12
 note_on channel=2 note=61 velocity=78 time=108
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=64 velocity=77 time=0
 note_on channel=2 note=61 velocity=78 time=0
@@ -3762,6 +3901,7 @@ pitchwheel channel=3 pitch=7878 time=4
 pitchwheel channel=3 pitch=7722 time=3
 pitchwheel channel=3 pitch=7566 time=3
 pitchwheel channel=3 pitch=7410 time=3
+control_change channel=2 control=64 value=0 time=2
 pitchwheel channel=3 pitch=7254 time=0
 pitchwheel channel=3 pitch=7098 time=2
 pitchwheel channel=3 pitch=6942 time=3
@@ -3808,6 +3948,7 @@ pitchwheel channel=3 pitch=701 time=1
 pitchwheel channel=3 pitch=545 time=1
 pitchwheel channel=3 pitch=389 time=1
 note_on channel=2 note=61 velocity=71 time=36
+control_change channel=2 control=64 value=127 time=56
 note_on channel=2 note=61 velocity=0 time=19
 note_on channel=2 note=66 velocity=75 time=45
 note_on channel=2 note=54 velocity=0 time=54
@@ -3963,6 +4104,7 @@ note_on channel=2 note=26 velocity=79 time=0
 note_on channel=2 note=38 velocity=79 time=0
 note_on channel=2 note=54 velocity=79 time=0
 note_on channel=3 note=74 velocity=94 time=0
+control_change channel=2 control=64 value=0 time=18
 pitchwheel channel=3 pitch=-3852 time=31
 pitchwheel channel=3 pitch=-3852 time=1
 pitchwheel channel=3 pitch=-3852 time=1
@@ -4023,6 +4165,7 @@ pitchwheel channel=3 pitch=-71 time=1
 pitchwheel channel=3 pitch=0 time=2
 pitchwheel channel=3 pitch=-211 time=1
 pitchwheel channel=3 pitch=0 time=1
+control_change channel=2 control=64 value=127 time=42
 note_on channel=2 note=66 velocity=77 time=67
 note_on channel=2 note=57 velocity=0 time=25
 note_on channel=2 note=54 velocity=0 time=95
@@ -4151,14 +4294,17 @@ note_on channel=3 note=69 velocity=88 time=0
 note_on channel=2 note=38 velocity=0 time=27
 note_on channel=2 note=26 velocity=0 time=5
 note_on channel=2 note=57 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=3 note=69 velocity=0 time=5
 note_on channel=2 note=28 velocity=79 time=0
 note_on channel=2 note=40 velocity=79 time=0
 note_on channel=2 note=54 velocity=79 time=0
 note_on channel=3 note=71 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=3 note=71 velocity=0 time=98
 note_on channel=2 note=56 velocity=74 time=0
 note_on channel=3 note=73 velocity=84 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=73 velocity=0 time=45
 note_on channel=2 note=64 velocity=77 time=0
 note_on channel=3 note=73 velocity=87 time=0
@@ -4190,7 +4336,9 @@ note_on channel=2 note=30 velocity=79 time=0
 note_on channel=2 note=42 velocity=79 time=0
 note_on channel=2 note=54 velocity=78 time=0
 note_on channel=3 note=71 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=78
 note_on channel=2 note=57 velocity=77 time=42
+control_change channel=2 control=64 value=127 time=10
 note_on channel=2 note=54 velocity=0 time=5
 note_on channel=3 note=71 velocity=0 time=81
 note_on channel=2 note=57 velocity=0 time=14
@@ -4219,10 +4367,13 @@ note_on channel=2 note=57 velocity=81 time=4
 note_on channel=2 note=42 velocity=0 time=27
 note_on channel=2 note=30 velocity=0 time=5
 note_on channel=2 note=57 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=2 note=38 velocity=79 time=9
 note_on channel=2 note=50 velocity=79 time=0
 note_on channel=2 note=54 velocity=79 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=57 velocity=74 time=102
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=69 velocity=0 time=66
 note_on channel=2 note=62 velocity=77 time=0
 note_on channel=3 note=71 velocity=91 time=0
@@ -4277,14 +4428,17 @@ note_on channel=2 note=57 velocity=81 time=4
 note_on channel=2 note=38 velocity=0 time=19
 note_on channel=2 note=50 velocity=0 time=5
 note_on channel=2 note=57 velocity=0 time=27
+control_change channel=2 control=64 value=0 time=52
 note_on channel=3 note=69 velocity=0 time=5
 note_on channel=2 note=28 velocity=79 time=0
 note_on channel=2 note=40 velocity=79 time=0
 note_on channel=2 note=54 velocity=79 time=0
 note_on channel=3 note=73 velocity=92 time=0
+control_change channel=2 control=64 value=0 time=18
 note_on channel=3 note=73 velocity=0 time=81
 note_on channel=2 note=56 velocity=74 time=0
 note_on channel=3 note=73 velocity=85 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=3 note=73 velocity=0 time=46
 note_on channel=2 note=64 velocity=77 time=0
 note_on channel=3 note=73 velocity=85 time=0
@@ -4312,10 +4466,12 @@ note_on channel=2 note=30 velocity=79 time=0
 note_on channel=2 note=42 velocity=79 time=0
 note_on channel=2 note=54 velocity=78 time=0
 note_on channel=3 note=71 velocity=94 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=71 velocity=0 time=16
 note_on channel=2 note=57 velocity=77 time=0
 note_on channel=3 note=69 velocity=85 time=0
 note_on channel=2 note=54 velocity=0 time=15
+control_change channel=2 control=64 value=127 time=23
 note_on channel=2 note=57 velocity=0 time=72
 note_on channel=3 note=69 velocity=0 time=6
 note_on channel=2 note=64 velocity=77 time=0
@@ -4347,8 +4503,10 @@ note_on channel=3 note=73 velocity=0 time=57
 note_on channel=2 note=38 velocity=79 time=0
 note_on channel=2 note=50 velocity=79 time=0
 note_on channel=2 note=54 velocity=79 time=0
+control_change channel=2 control=64 value=0 time=0
 note_on channel=3 note=66 velocity=87 time=0
 note_on channel=2 note=57 velocity=76 time=120
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=62 velocity=80 time=67
 note_on channel=2 note=57 velocity=0 time=25
 note_on channel=2 note=54 velocity=0 time=95
@@ -4429,8 +4587,11 @@ note_on channel=2 note=64 velocity=83 time=14
 note_on channel=2 note=64 velocity=0 time=116
 note_on channel=2 note=56 velocity=83 time=4
 note_on channel=2 note=56 velocity=0 time=59
+control_change channel=2 control=64 value=0 time=52
 note_on channel=2 note=54 velocity=86 time=9
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=57 velocity=88 time=102
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=66 velocity=88 time=67
 note_on channel=2 note=57 velocity=0 time=25
 pitchwheel channel=3 pitch=8191 time=60
@@ -4518,6 +4679,7 @@ note_on channel=2 note=54 velocity=0 time=62
 note_on channel=2 note=59 velocity=0 time=43
 note_on channel=2 note=68 velocity=75 time=15
 note_on channel=2 note=68 velocity=0 time=128
+control_change channel=2 control=64 value=0 time=78
 note_on channel=2 note=38 velocity=0 time=30
 note_on channel=2 note=33 velocity=95 time=4
 note_on channel=2 note=45 velocity=95 time=0
@@ -4525,6 +4687,7 @@ note_on channel=2 note=57 velocity=95 time=0
 note_on channel=2 note=50 velocity=0 time=1
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=81 velocity=101 time=0
+control_change channel=2 control=64 value=127 time=68
 note_on channel=3 note=81 velocity=0 time=29
 note_on channel=2 note=69 velocity=93 time=0
 note_on channel=3 note=81 velocity=99 time=0
@@ -4597,9 +4760,11 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=47 velocity=95 time=0
 note_on channel=2 note=56 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=80 velocity=0 time=16
 note_on channel=2 note=59 velocity=92 time=4
 note_on channel=3 note=78 velocity=79 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=3 note=78 velocity=0 time=7
 note_on channel=2 note=68 velocity=90 time=5
@@ -4661,9 +4826,11 @@ pitchwheel channel=3 pitch=-503 time=1
 pitchwheel channel=3 pitch=-503 time=1
 pitchwheel channel=3 pitch=-168 time=1
 pitchwheel channel=3 pitch=0 time=1
+control_change channel=2 control=64 value=0 time=43
 note_on channel=3 note=81 velocity=0 time=69
 note_on channel=2 note=61 velocity=87 time=0
 note_on channel=3 note=78 velocity=99 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=87 time=120
@@ -4834,12 +5001,14 @@ pitchwheel channel=3 pitch=-1338 time=1
 pitchwheel channel=3 pitch=-1338 time=2
 pitchwheel channel=3 pitch=-1004 time=4
 pitchwheel channel=3 pitch=-837 time=1
+control_change channel=2 control=64 value=0 time=2
 pitchwheel channel=3 pitch=-670 time=0
 pitchwheel channel=3 pitch=-503 time=2
 pitchwheel channel=3 pitch=-335 time=1
 pitchwheel channel=3 pitch=-168 time=2
 pitchwheel channel=3 pitch=-1 time=2
 note_on channel=2 note=62 velocity=89 time=55
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -4861,6 +5030,7 @@ note_on channel=2 note=50 velocity=0 time=80
 note_on channel=2 note=38 velocity=0 time=1
 note_on channel=2 note=62 velocity=0 time=9
 note_on channel=3 note=80 velocity=0 time=17
+control_change channel=2 control=64 value=0 time=1
 note_on channel=2 note=33 velocity=95 time=0
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
@@ -4868,6 +5038,7 @@ note_on channel=3 note=81 velocity=100 time=0
 note_on channel=3 note=81 velocity=0 time=116
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=76 velocity=96 time=0
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=93 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -4923,6 +5094,7 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=90 time=7
 note_on channel=2 note=52 velocity=90 time=0
 note_on channel=2 note=59 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=64 velocity=92 time=20
 pitchwheel channel=3 pitch=-73 time=25
 pitchwheel channel=3 pitch=-218 time=12
@@ -4930,6 +5102,7 @@ pitchwheel channel=3 pitch=-363 time=5
 pitchwheel channel=3 pitch=-508 time=4
 pitchwheel channel=3 pitch=-653 time=3
 pitchwheel channel=3 pitch=-798 time=3
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-943 time=2
 pitchwheel channel=3 pitch=-1088 time=2
 pitchwheel channel=3 pitch=-1233 time=2
@@ -5033,7 +5206,9 @@ note_on channel=2 note=42 velocity=92 time=0
 note_on channel=2 note=49 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=78 velocity=100 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=2 note=61 velocity=90 time=73
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=87 time=120
@@ -5055,7 +5230,9 @@ note_on channel=2 note=38 velocity=92 time=0
 note_on channel=2 note=50 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=81 velocity=100 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=89 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -5139,6 +5316,7 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=85 velocity=0 time=3
+control_change channel=2 control=64 value=0 time=15
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=52 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
@@ -5146,6 +5324,7 @@ note_on channel=3 note=85 velocity=100 time=0
 note_on channel=2 note=61 velocity=89 time=120
 note_on channel=3 note=85 velocity=0 time=29
 note_on channel=3 note=85 velocity=100 time=0
+control_change channel=2 control=64 value=127 time=23
 note_on channel=2 note=69 velocity=93 time=52
 note_on channel=2 note=61 velocity=0 time=17
 pitchwheel channel=3 pitch=0 time=7
@@ -5253,6 +5432,7 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=52 velocity=95 time=0
 note_on channel=2 note=59 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=64 velocity=92 time=20
 pitchwheel channel=3 pitch=-1 time=2
 pitchwheel channel=3 pitch=-135 time=15
@@ -5267,6 +5447,7 @@ pitchwheel channel=3 pitch=-1210 time=2
 pitchwheel channel=3 pitch=-1344 time=2
 pitchwheel channel=3 pitch=-1478 time=2
 pitchwheel channel=3 pitch=-1612 time=2
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-1747 time=1
 pitchwheel channel=3 pitch=-1881 time=2
 pitchwheel channel=3 pitch=-2015 time=2
@@ -5358,6 +5539,7 @@ pitchwheel channel=3 pitch=-7118 time=3
 pitchwheel channel=3 pitch=-6984 time=2
 pitchwheel channel=3 pitch=-6850 time=3
 pitchwheel channel=3 pitch=-6715 time=2
+control_change channel=2 control=64 value=0 time=3
 pitchwheel channel=3 pitch=-6581 time=0
 pitchwheel channel=3 pitch=-6447 time=3
 pitchwheel channel=3 pitch=-6312 time=1
@@ -5410,6 +5592,7 @@ pitchwheel channel=3 pitch=-135 time=1
 pitchwheel channel=3 pitch=-1 time=1
 pitchwheel channel=3 pitch=0 time=1
 note_on channel=2 note=61 velocity=87 time=3
+control_change channel=2 control=64 value=127 time=40
 note_on channel=3 note=85 velocity=0 time=9
 pitchwheel channel=3 pitch=-8058 time=17
 pitchwheel channel=3 pitch=-7924 time=1
@@ -5605,7 +5788,9 @@ note_on channel=2 note=38 velocity=92 time=4
 note_on channel=2 note=50 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=78 velocity=88 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=89 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -5629,11 +5814,13 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=81 velocity=0 time=2
+control_change channel=2 control=64 value=0 time=16
 note_on channel=2 note=33 velocity=91 time=0
 note_on channel=2 note=45 velocity=91 time=0
 note_on channel=2 note=57 velocity=91 time=0
 note_on channel=3 note=81 velocity=102 time=0
 note_on channel=2 note=61 velocity=89 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=92 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -5661,9 +5848,11 @@ note_on channel=2 note=40 velocity=94 time=0
 note_on channel=2 note=47 velocity=94 time=0
 note_on channel=2 note=56 velocity=92 time=0
 note_on channel=3 note=78 velocity=97 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=78 velocity=0 time=16
 note_on channel=2 note=59 velocity=91 time=0
 note_on channel=3 note=76 velocity=94 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=2 note=68 velocity=89 time=12
 note_on channel=2 note=56 velocity=0 time=53
@@ -5851,9 +6040,11 @@ note_on channel=2 note=59 velocity=0 time=3
 note_on channel=2 note=42 velocity=91 time=38
 note_on channel=2 note=49 velocity=93 time=0
 note_on channel=2 note=57 velocity=91 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=3 note=71 velocity=0 time=54
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=69 velocity=92 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=66 velocity=90 time=0
 note_on channel=2 note=61 velocity=86 time=120
@@ -5876,7 +6067,9 @@ note_on channel=2 note=38 velocity=91 time=0
 note_on channel=2 note=50 velocity=93 time=0
 note_on channel=2 note=57 velocity=91 time=0
 note_on channel=3 note=73 velocity=87 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=88 time=62
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-7613 time=12
 pitchwheel channel=3 pitch=-7468 time=1
 pitchwheel channel=3 pitch=-7468 time=1
@@ -5942,6 +6135,7 @@ note_on channel=2 note=66 velocity=0 time=9
 note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=35 velocity=92 time=0
 note_on channel=2 note=47 velocity=92 time=0
 note_on channel=2 note=56 velocity=92 time=0
@@ -5953,6 +6147,7 @@ note_on channel=4 note=64 velocity=0 time=19
 note_on channel=3 note=69 velocity=0 time=0
 note_on channel=3 note=69 velocity=91 time=0
 note_on channel=4 note=64 velocity=91 time=0
+control_change channel=2 control=64 value=127 time=28
 note_on channel=2 note=64 velocity=92 time=52
 note_on channel=2 note=59 velocity=0 time=17
 note_on channel=4 note=64 velocity=0 time=41
@@ -6069,11 +6264,13 @@ note_on channel=3 note=71 velocity=0 time=3
 note_on channel=2 note=56 velocity=92 time=0
 note_on channel=3 note=69 velocity=97 time=0
 note_on channel=4 note=64 velocity=97 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=59 velocity=91 time=20
 note_on channel=4 note=64 velocity=0 time=19
 note_on channel=3 note=69 velocity=0 time=0
 note_on channel=3 note=69 velocity=91 time=0
 note_on channel=4 note=64 velocity=91 time=0
+control_change channel=2 control=64 value=127 time=13
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=2 note=64 velocity=89 time=12
 note_on channel=2 note=56 velocity=0 time=53
@@ -6111,10 +6308,12 @@ note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=73 velocity=98 time=0
 note_on channel=4 note=66 velocity=98 time=0
 note_on channel=15 note=66 velocity=1 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=2 note=61 velocity=89 time=73
 note_on channel=4 note=66 velocity=0 time=19
 note_on channel=3 note=73 velocity=0 time=0
 note_on channel=15 note=66 velocity=0 time=19
+control_change channel=2 control=64 value=127 time=0
 note_on channel=3 note=73 velocity=96 time=0
 note_on channel=4 note=64 velocity=96 time=0
 note_on channel=15 note=64 velocity=1 time=0
@@ -6184,12 +6383,14 @@ note_on channel=2 note=66 velocity=0 time=9
 note_on channel=2 note=49 velocity=0 time=53
 note_on channel=2 note=37 velocity=0 time=0
 note_on channel=2 note=61 velocity=0 time=37
+control_change channel=2 control=64 value=0 time=2
 note_on channel=2 note=38 velocity=92 time=0
 note_on channel=2 note=50 velocity=92 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=69 velocity=98 time=0
 note_on channel=4 note=64 velocity=98 time=0
 note_on channel=2 note=62 velocity=88 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=92 time=51
 note_on channel=2 note=62 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -6271,7 +6472,9 @@ note_on channel=2 note=62 velocity=91 time=116
 note_on channel=2 note=69 velocity=0 time=17
 note_on channel=2 note=62 velocity=0 time=96
 note_on channel=2 note=57 velocity=92 time=7
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=62 velocity=91 time=20
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=62 velocity=0 time=55
 note_on channel=4 note=64 velocity=0 time=9
 note_on channel=3 note=69 velocity=0 time=0
@@ -6308,7 +6511,9 @@ note_on channel=2 note=59 velocity=92 time=0
 note_on channel=3 note=71 velocity=98 time=0
 note_on channel=4 note=62 velocity=98 time=0
 note_on channel=15 note=62 velocity=1 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=2 note=62 velocity=89 time=73
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=62 velocity=0 time=80
 note_on channel=2 note=71 velocity=88 time=0
 note_on channel=2 note=62 velocity=90 time=120
@@ -6485,7 +6690,9 @@ note_on channel=2 note=49 velocity=92 time=0
 note_on channel=2 note=61 velocity=90 time=0
 note_on channel=3 note=71 velocity=91 time=0
 note_on channel=4 note=62 velocity=91 time=0
+control_change channel=2 control=64 value=0 time=72
 note_on channel=2 note=64 velocity=90 time=48
+control_change channel=2 control=64 value=127 time=0
 note_on channel=2 note=64 velocity=0 time=106
 note_on channel=4 note=62 velocity=0 time=10
 note_on channel=3 note=71 velocity=0 time=0
@@ -6515,8 +6722,10 @@ note_on channel=2 note=50 velocity=90 time=0
 note_on channel=2 note=62 velocity=90 time=0
 note_on channel=3 note=69 velocity=79 time=0
 note_on channel=4 note=64 velocity=79 time=0
+control_change channel=2 control=64 value=0 time=110
 note_on channel=2 note=66 velocity=81 time=8
 note_on channel=2 note=69 velocity=82 time=120
+control_change channel=2 control=64 value=127 time=3
 note_on channel=2 note=66 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=50
 note_on channel=2 note=66 velocity=82 time=36
@@ -6549,6 +6758,7 @@ note_on channel=2 note=68 velocity=69 time=74
 note_on channel=2 note=71 velocity=0 time=24
 note_on channel=2 note=38 velocity=0 time=65
 note_on channel=2 note=50 velocity=0 time=4
+control_change channel=2 control=64 value=0 time=7
 note_on channel=2 note=64 velocity=0 time=3
 note_on channel=2 note=68 velocity=0 time=13
 note_on channel=2 note=45 velocity=85 time=3
@@ -6584,6 +6794,7 @@ pitchwheel channel=3 pitch=3342 time=2
 pitchwheel channel=3 pitch=3175 time=1
 pitchwheel channel=3 pitch=3008 time=2
 pitchwheel channel=3 pitch=3008 time=1
+control_change channel=2 control=64 value=127 time=2
 pitchwheel channel=3 pitch=3008 time=0
 pitchwheel channel=3 pitch=2841 time=2
 pitchwheel channel=3 pitch=2674 time=1
@@ -6620,7 +6831,9 @@ note_on channel=2 note=52 velocity=81 time=0
 note_on channel=2 note=59 velocity=81 time=0
 note_on channel=2 note=64 velocity=81 time=0
 note_on channel=2 note=68 velocity=81 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=3 note=80 velocity=0 time=178
+control_change channel=2 control=64 value=127 time=135
 note_on channel=3 note=80 velocity=98 time=0
 note_on channel=3 note=80 velocity=0 time=102
 note_on channel=3 note=80 velocity=93 time=0
@@ -6664,8 +6877,10 @@ note_on channel=2 note=49 velocity=83 time=0
 note_on channel=2 note=57 velocity=83 time=0
 note_on channel=2 note=61 velocity=83 time=0
 note_on channel=2 note=66 velocity=83 time=0
+control_change channel=2 control=64 value=0 time=22
 note_on channel=3 note=81 velocity=0 time=94
 note_on channel=3 note=78 velocity=93 time=0
+control_change channel=2 control=64 value=127 time=421
 note_on channel=2 note=49 velocity=0 time=101
 note_on channel=2 note=42 velocity=0 time=36
 note_on channel=2 note=66 velocity=0 time=26
@@ -6677,6 +6892,7 @@ pitchwheel channel=3 pitch=-335 time=2
 pitchwheel channel=3 pitch=-335 time=2
 pitchwheel channel=3 pitch=-335 time=2
 pitchwheel channel=3 pitch=-670 time=5
+control_change channel=2 control=64 value=0 time=1
 pitchwheel channel=3 pitch=-670 time=0
 pitchwheel channel=3 pitch=-837 time=2
 pitchwheel channel=3 pitch=-1171 time=2
@@ -6834,6 +7050,7 @@ pitchwheel channel=3 pitch=-168 time=2
 pitchwheel channel=3 pitch=-1 time=2
 note_on channel=3 note=78 velocity=0 time=364
 note_on channel=3 note=78 velocity=94 time=0
+control_change channel=2 control=64 value=127 time=222
 note_on channel=3 note=78 velocity=0 time=14
 note_on channel=3 note=80 velocity=94 time=0
 note_on channel=2 note=38 velocity=0 time=216
@@ -6848,7 +7065,10 @@ note_on channel=2 note=61 velocity=79 time=0
 note_on channel=2 note=64 velocity=79 time=0
 note_on channel=2 note=69 velocity=79 time=0
 note_on channel=3 note=81 velocity=99 time=0
+control_change channel=2 control=64 value=0 time=48
+control_change channel=2 control=64 value=0 time=5
 note_on channel=3 note=81 velocity=0 time=63
+control_change channel=2 control=64 value=127 time=0
 note_on channel=3 note=76 velocity=91 time=0
 note_on channel=3 note=76 velocity=0 time=222
 note_on channel=3 note=76 velocity=92 time=0
@@ -6896,7 +7116,9 @@ note_on channel=2 note=52 velocity=79 time=0
 note_on channel=2 note=59 velocity=79 time=0
 note_on channel=2 note=64 velocity=79 time=0
 note_on channel=2 note=68 velocity=79 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=3 note=80 velocity=0 time=176
+control_change channel=2 control=64 value=127 time=137
 pitchwheel channel=3 pitch=-4030 time=222
 note_on channel=3 note=81 velocity=98 time=0
 note_on channel=2 note=59 velocity=0 time=63
@@ -6943,11 +7165,14 @@ note_on channel=2 note=57 velocity=79 time=0
 note_on channel=2 note=61 velocity=79 time=0
 note_on channel=2 note=66 velocity=79 time=0
 note_on channel=3 note=78 velocity=97 time=0
+control_change channel=2 control=64 value=0 time=22
+control_change channel=2 control=64 value=127 time=519
 note_on channel=2 note=49 velocity=0 time=101
 note_on channel=2 note=42 velocity=0 time=36
 note_on channel=2 note=66 velocity=0 time=26
 note_on channel=2 note=57 velocity=0 time=6
 note_on channel=2 note=61 velocity=0 time=4
+control_change channel=2 control=64 value=0 time=217
 note_on channel=3 note=78 velocity=0 time=17
 note_on channel=2 note=38 velocity=79 time=12
 note_on channel=2 note=45 velocity=79 time=0
@@ -6991,6 +7216,7 @@ pitchwheel channel=3 pitch=-150 time=2
 pitchwheel channel=3 pitch=-1 time=1
 note_on channel=3 note=85 velocity=0 time=146
 note_on channel=3 note=85 velocity=95 time=0
+control_change channel=2 control=64 value=127 time=78
 note_on channel=2 note=69 velocity=0 time=89
 note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=62 velocity=0 time=1
@@ -7003,6 +7229,7 @@ note_on channel=2 note=52 velocity=76 time=0
 note_on channel=2 note=61 velocity=76 time=0
 note_on channel=2 note=69 velocity=76 time=0
 note_on channel=3 note=85 velocity=94 time=0
+control_change channel=2 control=64 value=127 time=120
 note_on channel=3 note=85 velocity=0 time=29
 note_on channel=3 note=85 velocity=95 time=0
 note_on channel=2 note=61 velocity=0 time=30
@@ -7063,6 +7290,8 @@ note_on channel=2 note=47 velocity=76 time=0
 note_on channel=2 note=59 velocity=75 time=0
 note_on channel=2 note=68 velocity=75 time=0
 note_on channel=3 note=85 velocity=96 time=2
+control_change channel=2 control=64 value=0 time=43
+control_change channel=2 control=64 value=127 time=29
 pitchwheel channel=3 pitch=-1 time=48
 pitchwheel channel=3 pitch=-135 time=15
 pitchwheel channel=3 pitch=-270 time=7
@@ -7159,6 +7388,7 @@ note_on channel=2 note=61 velocity=76 time=0
 note_on channel=2 note=69 velocity=76 time=0
 note_on channel=3 note=85 velocity=100 time=0
 pitchwheel channel=3 pitch=-7924 time=11
+control_change channel=2 control=64 value=0 time=1
 pitchwheel channel=3 pitch=-7790 time=5
 pitchwheel channel=3 pitch=-7655 time=5
 pitchwheel channel=3 pitch=-7521 time=4
@@ -7220,6 +7450,7 @@ pitchwheel channel=3 pitch=-135 time=1
 pitchwheel channel=3 pitch=-1 time=1
 pitchwheel channel=3 pitch=0 time=1
 note_on channel=3 note=85 velocity=0 time=37
+control_change channel=2 control=64 value=127 time=6
 pitchwheel channel=3 pitch=-8058 time=17
 pitchwheel channel=3 pitch=-7924 time=1
 note_on channel=3 note=85 velocity=100 time=0
@@ -7415,6 +7646,8 @@ note_on channel=2 note=45 velocity=73 time=0
 note_on channel=2 note=62 velocity=75 time=0
 note_on channel=2 note=69 velocity=75 time=0
 note_on channel=3 note=78 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=21
+control_change channel=2 control=64 value=127 time=26
 note_on channel=2 note=62 velocity=0 time=145
 note_on channel=2 note=69 velocity=0 time=25
 note_on channel=3 note=78 velocity=0 time=15
@@ -7443,6 +7676,7 @@ note_on channel=2 note=52 velocity=76 time=0
 note_on channel=2 note=61 velocity=76 time=0
 note_on channel=2 note=69 velocity=76 time=0
 note_on channel=3 note=81 velocity=91 time=0
+control_change channel=2 control=64 value=127 time=120
 note_on channel=2 note=61 velocity=0 time=75
 note_on channel=2 note=69 velocity=0 time=25
 note_on channel=2 note=57 velocity=73 time=20
@@ -7471,6 +7705,8 @@ note_on channel=2 note=52 velocity=76 time=0
 note_on channel=2 note=59 velocity=75 time=0
 note_on channel=2 note=68 velocity=75 time=0
 note_on channel=3 note=78 velocity=97 time=0
+control_change channel=2 control=64 value=0 time=45
+control_change channel=2 control=64 value=127 time=33
 note_on channel=3 note=78 velocity=0 time=38
 note_on channel=3 note=76 velocity=90 time=0
 note_on channel=2 note=59 velocity=0 time=75
@@ -7589,10 +7825,12 @@ note_on channel=2 note=42 velocity=73 time=19
 note_on channel=2 note=49 velocity=73 time=0
 note_on channel=2 note=57 velocity=76 time=0
 note_on channel=2 note=66 velocity=76 time=0
+control_change channel=2 control=64 value=0 time=12
 note_on channel=3 note=78 velocity=0 time=89
 pitchwheel channel=3 pitch=-8192 time=13
 pitchwheel channel=3 pitch=-8058 time=1
 note_on channel=3 note=78 velocity=100 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=57 velocity=0 time=35
 pitchwheel channel=3 pitch=-7895 time=13
 pitchwheel channel=3 pitch=-7895 time=2
@@ -7781,6 +8019,8 @@ note_on channel=2 note=38 velocity=90 time=4
 note_on channel=2 note=45 velocity=90 time=0
 note_on channel=2 note=57 velocity=90 time=0
 note_on channel=2 note=66 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=50
+control_change channel=2 control=64 value=127 time=39
 note_on channel=2 note=57 velocity=0 time=106
 note_on channel=2 note=66 velocity=0 time=25
 note_on channel=2 note=54 velocity=80 time=20
@@ -7798,11 +8038,13 @@ note_on channel=2 note=38 velocity=0 time=179
 note_on channel=2 note=54 velocity=0 time=21
 note_on channel=2 note=45 velocity=0 time=10
 note_on channel=2 note=62 velocity=0 time=9
+control_change channel=2 control=64 value=0 time=7
 note_on channel=2 note=33 velocity=96 time=5
 note_on channel=2 note=45 velocity=96 time=0
 note_on channel=2 note=57 velocity=96 time=0
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=81 velocity=101 time=0
+control_change channel=2 control=64 value=127 time=68
 note_on channel=3 note=81 velocity=0 time=29
 note_on channel=2 note=69 velocity=93 time=0
 note_on channel=3 note=81 velocity=99 time=0
@@ -7875,9 +8117,11 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=47 velocity=95 time=0
 note_on channel=2 note=56 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=80 velocity=0 time=16
 note_on channel=2 note=59 velocity=92 time=4
 note_on channel=3 note=78 velocity=82 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=3 note=78 velocity=0 time=7
 note_on channel=2 note=68 velocity=90 time=5
@@ -7939,9 +8183,11 @@ pitchwheel channel=3 pitch=-503 time=1
 pitchwheel channel=3 pitch=-503 time=1
 pitchwheel channel=3 pitch=-168 time=1
 pitchwheel channel=3 pitch=0 time=1
+control_change channel=2 control=64 value=0 time=43
 note_on channel=3 note=81 velocity=0 time=69
 note_on channel=2 note=61 velocity=87 time=0
 note_on channel=3 note=78 velocity=99 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=87 time=120
@@ -8114,12 +8360,14 @@ pitchwheel channel=3 pitch=-1338 time=1
 pitchwheel channel=3 pitch=-1338 time=2
 pitchwheel channel=3 pitch=-1004 time=4
 pitchwheel channel=3 pitch=-837 time=1
+control_change channel=2 control=64 value=0 time=2
 pitchwheel channel=3 pitch=-670 time=0
 pitchwheel channel=3 pitch=-503 time=2
 pitchwheel channel=3 pitch=-335 time=1
 pitchwheel channel=3 pitch=-168 time=2
 pitchwheel channel=3 pitch=-1 time=2
 note_on channel=2 note=62 velocity=89 time=26
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -8147,6 +8395,7 @@ note_on channel=2 note=50 velocity=0 time=80
 note_on channel=2 note=45 velocity=0 time=1
 note_on channel=2 note=62 velocity=0 time=9
 note_on channel=3 note=80 velocity=0 time=17
+control_change channel=2 control=64 value=0 time=1
 note_on channel=2 note=33 velocity=95 time=0
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
@@ -8154,6 +8403,7 @@ note_on channel=3 note=81 velocity=100 time=0
 note_on channel=3 note=81 velocity=0 time=116
 note_on channel=2 note=61 velocity=89 time=0
 note_on channel=3 note=76 velocity=96 time=0
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=93 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -8211,6 +8461,7 @@ note_on channel=2 note=61 velocity=0 time=32
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=47 velocity=95 time=0
 note_on channel=2 note=59 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=64 velocity=92 time=20
 pitchwheel channel=3 pitch=238 time=24
 pitchwheel channel=3 pitch=238 time=2
@@ -8230,6 +8481,7 @@ pitchwheel channel=3 pitch=-717 time=0
 pitchwheel channel=3 pitch=-876 time=2
 pitchwheel channel=3 pitch=-876 time=1
 pitchwheel channel=3 pitch=-876 time=1
+control_change channel=2 control=64 value=127 time=2
 pitchwheel channel=3 pitch=-1035 time=0
 pitchwheel channel=3 pitch=-1035 time=0
 pitchwheel channel=3 pitch=-1194 time=2
@@ -8358,7 +8610,9 @@ note_on channel=2 note=30 velocity=94 time=0
 note_on channel=2 note=42 velocity=92 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=78 velocity=100 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=2 note=61 velocity=90 time=73
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=61 velocity=0 time=80
 note_on channel=2 note=69 velocity=91 time=0
 note_on channel=2 note=61 velocity=87 time=120
@@ -8380,7 +8634,9 @@ note_on channel=2 note=38 velocity=92 time=0
 note_on channel=2 note=50 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=81 velocity=100 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=89 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -8464,6 +8720,7 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=85 velocity=0 time=3
+control_change channel=2 control=64 value=0 time=15
 note_on channel=2 note=33 velocity=95 time=0
 note_on channel=2 note=45 velocity=95 time=0
 note_on channel=2 note=57 velocity=95 time=0
@@ -8471,6 +8728,7 @@ note_on channel=3 note=85 velocity=100 time=0
 note_on channel=2 note=61 velocity=89 time=120
 note_on channel=3 note=85 velocity=0 time=29
 note_on channel=3 note=85 velocity=100 time=0
+control_change channel=2 control=64 value=127 time=23
 note_on channel=2 note=69 velocity=93 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -8530,6 +8788,7 @@ note_on channel=2 note=61 velocity=0 time=34
 note_on channel=2 note=40 velocity=95 time=7
 note_on channel=2 note=52 velocity=95 time=0
 note_on channel=2 note=59 velocity=93 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=2 note=64 velocity=92 time=20
 pitchwheel channel=3 pitch=-1 time=2
 pitchwheel channel=3 pitch=-135 time=15
@@ -8544,6 +8803,7 @@ pitchwheel channel=3 pitch=-1210 time=2
 pitchwheel channel=3 pitch=-1344 time=2
 pitchwheel channel=3 pitch=-1478 time=2
 pitchwheel channel=3 pitch=-1612 time=2
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-1747 time=1
 pitchwheel channel=3 pitch=-1881 time=2
 pitchwheel channel=3 pitch=-2015 time=2
@@ -8639,6 +8899,7 @@ pitchwheel channel=3 pitch=-7118 time=3
 pitchwheel channel=3 pitch=-6984 time=2
 pitchwheel channel=3 pitch=-6850 time=3
 pitchwheel channel=3 pitch=-6715 time=2
+control_change channel=2 control=64 value=0 time=3
 pitchwheel channel=3 pitch=-6581 time=0
 pitchwheel channel=3 pitch=-6447 time=3
 pitchwheel channel=3 pitch=-6312 time=1
@@ -8691,6 +8952,7 @@ pitchwheel channel=3 pitch=-135 time=1
 pitchwheel channel=3 pitch=-1 time=1
 pitchwheel channel=3 pitch=0 time=1
 note_on channel=2 note=61 velocity=87 time=3
+control_change channel=2 control=64 value=127 time=40
 note_on channel=3 note=85 velocity=0 time=4
 pitchwheel channel=3 pitch=-8058 time=16
 pitchwheel channel=3 pitch=-7924 time=1
@@ -8890,7 +9152,9 @@ note_on channel=2 note=38 velocity=92 time=4
 note_on channel=2 note=50 velocity=94 time=0
 note_on channel=2 note=57 velocity=92 time=0
 note_on channel=3 note=78 velocity=90 time=0
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=62 velocity=89 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=69 velocity=91 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -8918,11 +9182,13 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=50 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=81 velocity=0 time=2
+control_change channel=2 control=64 value=0 time=16
 note_on channel=2 note=33 velocity=86 time=0
 note_on channel=2 note=45 velocity=86 time=0
 note_on channel=2 note=57 velocity=86 time=0
 note_on channel=3 note=81 velocity=99 time=0
 note_on channel=2 note=61 velocity=84 time=90
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=69 velocity=87 time=52
 note_on channel=2 note=61 velocity=0 time=17
 note_on channel=2 note=57 velocity=0 time=49
@@ -8950,9 +9216,11 @@ note_on channel=2 note=40 velocity=89 time=0
 note_on channel=2 note=47 velocity=89 time=0
 note_on channel=2 note=56 velocity=87 time=0
 note_on channel=3 note=78 velocity=97 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=78 velocity=0 time=16
 note_on channel=2 note=59 velocity=86 time=0
 note_on channel=3 note=76 velocity=97 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=59 velocity=0 time=55
 note_on channel=2 note=68 velocity=84 time=12
 note_on channel=2 note=56 velocity=0 time=53
@@ -9099,6 +9367,7 @@ note_on channel=2 note=59 velocity=0 time=3
 note_on channel=2 note=42 velocity=86 time=38
 note_on channel=2 note=49 velocity=88 time=0
 note_on channel=2 note=57 velocity=86 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=3 note=78 velocity=0 time=54
 pitchwheel channel=3 pitch=-8192 time=13
 pitchwheel channel=3 pitch=-8058 time=1
@@ -9112,6 +9381,7 @@ pitchwheel channel=3 pitch=-7387 time=4
 pitchwheel channel=3 pitch=-7252 time=3
 pitchwheel channel=3 pitch=-7118 time=3
 pitchwheel channel=3 pitch=-6984 time=3
+control_change channel=2 control=64 value=127 time=2
 pitchwheel channel=3 pitch=-6850 time=1
 pitchwheel channel=3 pitch=-6715 time=3
 pitchwheel channel=3 pitch=-6581 time=1
@@ -9195,6 +9465,7 @@ pitchwheel channel=3 pitch=-3082 time=6
 pitchwheel channel=3 pitch=-2932 time=6
 pitchwheel channel=3 pitch=-2782 time=5
 pitchwheel channel=3 pitch=-2631 time=4
+control_change channel=2 control=64 value=0 time=4
 pitchwheel channel=3 pitch=-2481 time=2
 pitchwheel channel=3 pitch=-2331 time=3
 pitchwheel channel=3 pitch=-2180 time=4
@@ -9214,6 +9485,7 @@ pitchwheel channel=3 pitch=-226 time=4
 pitchwheel channel=3 pitch=-76 time=2
 pitchwheel channel=3 pitch=0 time=2
 note_on channel=2 note=62 velocity=85 time=10
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=62 velocity=0 time=105
 note_on channel=2 note=66 velocity=85 time=14
 note_on channel=2 note=57 velocity=0 time=45
@@ -9237,11 +9509,13 @@ note_on channel=2 note=38 velocity=0 time=49
 note_on channel=2 note=45 velocity=0 time=31
 note_on channel=2 note=62 velocity=0 time=10
 note_on channel=3 note=81 velocity=0 time=2
+control_change channel=2 control=64 value=0 time=16
 note_on channel=2 note=33 velocity=83 time=0
 note_on channel=2 note=45 velocity=83 time=0
 note_on channel=2 note=52 velocity=83 time=0
 note_on channel=3 note=81 velocity=95 time=0
 note_on channel=2 note=57 velocity=83 time=120
+control_change channel=2 control=64 value=127 time=68
 note_on channel=2 note=61 velocity=83 time=52
 note_on channel=2 note=57 velocity=0 time=17
 note_on channel=2 note=52 velocity=0 time=49
@@ -9269,9 +9543,11 @@ note_on channel=2 note=40 velocity=79 time=0
 note_on channel=2 note=47 velocity=79 time=0
 note_on channel=2 note=52 velocity=79 time=0
 note_on channel=3 note=78 velocity=91 time=0
+control_change channel=2 control=64 value=0 time=100
 note_on channel=3 note=78 velocity=0 time=16
 note_on channel=2 note=56 velocity=79 time=0
 note_on channel=3 note=76 velocity=92 time=0
+control_change channel=2 control=64 value=127 time=53
 note_on channel=2 note=56 velocity=0 time=55
 note_on channel=2 note=59 velocity=79 time=12
 note_on channel=2 note=52 velocity=0 time=53
@@ -9325,9 +9601,11 @@ note_on channel=2 note=56 velocity=0 time=3
 note_on channel=2 note=42 velocity=78 time=38
 note_on channel=2 note=49 velocity=78 time=0
 note_on channel=2 note=54 velocity=78 time=0
+control_change channel=2 control=64 value=0 time=47
 note_on channel=3 note=69 velocity=0 time=54
 note_on channel=2 note=57 velocity=76 time=0
 note_on channel=3 note=69 velocity=89 time=0
+control_change channel=2 control=64 value=127 time=40
 note_on channel=2 note=57 velocity=0 time=80
 note_on channel=2 note=61 velocity=76 time=0
 note_on channel=2 note=57 velocity=76 time=120
@@ -9350,6 +9628,7 @@ note_on channel=2 note=38 velocity=75 time=0
 note_on channel=2 note=45 velocity=75 time=0
 note_on channel=2 note=50 velocity=75 time=0
 note_on channel=3 note=73 velocity=81 time=0
+control_change channel=2 control=64 value=0 time=58
 pitchwheel channel=3 pitch=-7742 time=1
 pitchwheel channel=3 pitch=-7742 time=2
 pitchwheel channel=3 pitch=-7742 time=2
@@ -9376,6 +9655,7 @@ pitchwheel channel=3 pitch=-5637 time=1
 pitchwheel channel=3 pitch=-5487 time=2
 note_on channel=2 note=54 velocity=75 time=2
 pitchwheel channel=3 pitch=-5337 time=0
+control_change channel=2 control=64 value=127 time=1
 pitchwheel channel=3 pitch=-5036 time=1
 pitchwheel channel=3 pitch=-5036 time=3
 pitchwheel channel=3 pitch=-4886 time=2
@@ -9431,8 +9711,11 @@ note_on channel=2 note=50 velocity=0 time=80
 note_on channel=2 note=54 velocity=72 time=40
 note_on channel=2 note=57 velocity=0 time=9
 note_on channel=2 note=54 velocity=0 time=90
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=50 velocity=72 time=3
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=56 velocity=72 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=56 velocity=0 time=105
 note_on channel=2 note=59 velocity=72 time=14
 note_on channel=2 note=50 velocity=0 time=45
@@ -9448,6 +9731,8 @@ note_on channel=2 note=56 velocity=72 time=40
 note_on channel=2 note=59 velocity=0 time=9
 note_on channel=2 note=56 velocity=0 time=90
 note_on channel=2 note=50 velocity=72 time=21
+control_change channel=2 control=64 value=0 time=43
+control_change channel=2 control=64 value=127 time=47
 note_on channel=2 note=57 velocity=71 time=30
 note_on channel=2 note=57 velocity=0 time=106
 note_on channel=2 note=61 velocity=71 time=14
@@ -9463,8 +9748,11 @@ note_on channel=2 note=50 velocity=0 time=80
 note_on channel=2 note=57 velocity=67 time=40
 note_on channel=2 note=61 velocity=0 time=9
 note_on channel=2 note=57 velocity=0 time=90
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=54 velocity=68 time=3
+control_change channel=2 control=64 value=0 time=58
 note_on channel=2 note=57 velocity=68 time=62
+control_change channel=2 control=64 value=127 time=1
 note_on channel=2 note=57 velocity=0 time=105
 note_on channel=2 note=62 velocity=68 time=14
 note_on channel=2 note=54 velocity=0 time=45
@@ -9497,6 +9785,7 @@ note_on channel=2 note=62 velocity=0 time=9
 note_on channel=2 note=45 velocity=0 time=55
 note_on channel=2 note=38 velocity=0 time=0
 note_on channel=2 note=57 velocity=0 time=35
+control_change channel=2 control=64 value=0 time=18
 note_on channel=2 note=33 velocity=72 time=3
 note_on channel=2 note=40 velocity=72 time=0
 note_on channel=2 note=45 velocity=72 time=0

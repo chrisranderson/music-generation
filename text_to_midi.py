@@ -5,7 +5,7 @@ from mido import Message
 with MidiFile() as new_mid:
     new_track = MidiTrack()
 
-    with open("waldstein_1_out.txt") as f:
+    with open("LearningText/waldstein_1_out.txt") as f:
         for line in f:
             parts = line.split()
             if parts[0] == "pitchwheel":
@@ -22,6 +22,11 @@ with MidiFile() as new_mid:
                 new_track.append(Message('note_on', channel=int(float(parts[1].split('=')[1])),
                                          note=int(float(parts[2].split('=')[1])),
                                          velocity=int(float(parts[3].split('=')[1])),
+                                         time=int(float(parts[4].split('=')[1]))))
+            elif parts[0] == "control_change":
+                new_track.append(Message('control_change', channel=int(float(parts[1].split('=')[1])),
+                                         control=int(float(parts[2].split('=')[1])),
+                                         value=int(float(parts[3].split('=')[1])),
                                          time=int(float(parts[4].split('=')[1]))))
             else:
                 print(parts[0])
