@@ -1,12 +1,16 @@
 from mido import MidiFile
 from mido.midifiles import MidiTrack
 from mido import Message
+import time
+import datetime
 
 with MidiFile() as new_mid:
     new_track = MidiTrack()
 
-    with open("waldstein_1_out.txt") as f:
+    with open("generated-music/first-long-train.txt") as f:
         for line in f:
+            new_track.append(Message('control_change', channel=0, control=64, value=0, time=0))
+
             parts = line.split()
             if parts[0] == "pitchwheel":
                 if abs(int(float(parts[2].split('=')[1]))) < 8191:
@@ -29,6 +33,6 @@ with MidiFile() as new_mid:
     new_mid.tracks.append(new_track)
 
     print('ALL TRACKS APPENDED')
-    new_mid.save('new_song.mid')
+    new_mid.save(str(datetime.date.today()) + ':' + str(time.time())[-8:-3] + '.mid')
 
 
