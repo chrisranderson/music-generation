@@ -4,7 +4,6 @@ import os
 
 def good_message(message):
     excludes = [
-        'control_change',
         'meta message',
         'sysex',
         'program_change'

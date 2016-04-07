@@ -7,6 +7,7 @@ class Song:
 
     def __init__(self):
         self.notes = []
+        self.counter = 0
 
     def read_file(self, file):
         mid = MidiFile(file)
@@ -74,6 +75,49 @@ class Song:
             midi_song.tracks.append(new_track)
             midi_song.save(file_name)
 
-song = Song()
-song.read_file("../Rollinginthedeep.mid")
-song.write_file("../Rollinginthedeep2.mid")
+    def has_next_note(self):
+        return self.counter < len(self.notes)
+
+    def get_next_note_as_arff(self, n = 5):
+        '''
+        Get the next n notes as a line in an arff file
+        '''
+
+        array = []
+
+        number_notes = n - max(n - self.counter, 0)
+
+        for empty_note in range(max(n - self.counter, 0)):
+            array += [-1, -1, -1, -1, -1]
+
+        for note_index in range(number_notes):
+            array += self.notes[self.counter - note_index].get_note_array()
+
+        self.counter += 1
+
+        return array, self.notes[self.counter].get_note_array()
+
+    def get_arff_arrays(self):
+
+        # TODO: Convert these all to numpy arrays.
+        array_instrument = []
+        array_note = []
+        array_velocity = []
+        array_duration = []
+        array_time_delta = []
+
+        for note_index in range(len(self.notes) - 1):
+            next_line, output = self.get_next_note_as_arff()
+            print next_line
+            print output
+            array_instrument.append(next_line + [ output[0] ])
+            array_note.append(next_line + [ output[1] ])
+            array_velocity.append(next_line + [ output[2] ])
+            array_duration.append(next_line + [ output[3] ])
+            array_time_delta.append(next_line + [ output[4] ])
+
+        return array_instrument, array_note, array_velocity, array_duration, array_time_delta
+
+# song = Song()
+# song.read_file("../Rollinginthedeep.mid")
+# song.write_file("../Rollinginthedeep2.mid")

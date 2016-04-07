@@ -1,3 +1,4 @@
+control_change channel=0 control=7 value=127 time=0
 note_on channel=0 note=81 velocity=127 time=0
 note_on channel=0 note=81 velocity=0 time=7
 note_on channel=0 note=79 velocity=127 time=1
@@ -790,6 +791,7 @@ note_on channel=0 note=69 velocity=0 time=119
 note_on channel=0 note=79 velocity=0 time=0
 note_on channel=0 note=73 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
+control_change channel=0 control=7 value=127 time=0
 note_on channel=0 note=69 velocity=127 time=0
 note_on channel=0 note=69 velocity=0 time=7
 note_on channel=0 note=67 velocity=127 time=1

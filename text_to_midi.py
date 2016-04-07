@@ -27,6 +27,11 @@ with MidiFile() as new_mid:
                                          note=int(float(parts[2].split('=')[1])),
                                          velocity=int(float(parts[3].split('=')[1])),
                                          time=int(float(parts[4].split('=')[1]))))
+            elif parts[0] == "control_change":
+                new_track.append(Message('control_change', channel=int(float(parts[1].split('=')[1])),
+                                         control=int(float(parts[2].split('=')[1])),
+                                         value=int(float(parts[3].split('=')[1])),
+                                         time=int(float(parts[4].split('=')[1]))))
             else:
                 print(parts[0])
 

@@ -194,6 +194,7 @@ note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=67 velocity=46 time=0
 note_on channel=0 note=72 velocity=0 time=480
 note_on channel=0 note=71 velocity=61 time=0
+control_change channel=0 control=64 value=127 time=320
 note_on channel=0 note=71 velocity=0 time=136
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=71 velocity=55 time=0
@@ -206,6 +207,8 @@ note_on channel=0 note=67 velocity=0 time=456
 note_on channel=0 note=52 velocity=0 time=24
 note_on channel=0 note=67 velocity=44 time=0
 note_on channel=0 note=64 velocity=41 time=0
+control_change channel=0 control=64 value=0 time=10
+control_change channel=0 control=64 value=127 time=284
 note_on channel=0 note=64 velocity=0 time=186
 note_on channel=0 note=60 velocity=40 time=0
 note_on channel=0 note=67 velocity=0 time=480
@@ -214,6 +217,8 @@ note_on channel=0 note=64 velocity=0 time=456
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=64 velocity=41 time=0
 note_on channel=0 note=48 velocity=28 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=132
 note_on channel=0 note=36 velocity=28 time=333
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=55 velocity=36 time=0
@@ -226,6 +231,9 @@ note_on channel=0 note=51 velocity=24 time=0
 note_on channel=0 note=59 velocity=28 time=0
 note_on channel=0 note=47 velocity=28 time=0
 note_on channel=0 note=35 velocity=24 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=179
+control_change channel=0 control=64 value=0 time=604
 note_on channel=0 note=35 velocity=0 time=73
 note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
@@ -251,6 +259,7 @@ note_on channel=0 note=60 velocity=51 time=0
 note_on channel=0 note=64 velocity=51 time=0
 note_on channel=0 note=66 velocity=61 time=0
 note_on channel=0 note=45 velocity=39 time=0
+control_change channel=0 control=64 value=127 time=100
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -259,6 +268,8 @@ note_on channel=0 note=66 velocity=66 time=0
 note_on channel=0 note=64 velocity=56 time=0
 note_on channel=0 note=61 velocity=56 time=0
 note_on channel=0 note=46 velocity=43 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=134
 note_on channel=0 note=46 velocity=0 time=331
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
@@ -268,6 +279,7 @@ note_on channel=0 note=57 velocity=60 time=0
 note_on channel=0 note=63 velocity=60 time=0
 note_on channel=0 note=66 velocity=71 time=0
 note_on channel=0 note=47 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=10
 note_on channel=0 note=66 velocity=0 time=240
 note_on channel=0 note=67 velocity=51 time=0
 note_on channel=0 note=67 velocity=0 time=240
@@ -313,6 +325,7 @@ note_on channel=0 note=60 velocity=51 time=0
 note_on channel=0 note=64 velocity=51 time=0
 note_on channel=0 note=66 velocity=61 time=0
 note_on channel=0 note=45 velocity=39 time=0
+control_change channel=0 control=64 value=127 time=133
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -321,6 +334,8 @@ note_on channel=0 note=66 velocity=52 time=0
 note_on channel=0 note=64 velocity=44 time=0
 note_on channel=0 note=61 velocity=44 time=0
 note_on channel=0 note=46 velocity=34 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=138
 note_on channel=0 note=46 velocity=0 time=331
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
@@ -331,6 +346,7 @@ note_on channel=0 note=63 velocity=46 time=0
 note_on channel=0 note=66 velocity=55 time=0
 note_on channel=0 note=35 velocity=29 time=0
 note_on channel=0 note=47 velocity=38 time=0
+control_change channel=0 control=64 value=0 time=8
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=69 velocity=38 time=0
 note_on channel=0 note=69 velocity=0 time=0
@@ -362,6 +378,7 @@ note_on channel=0 note=71 velocity=41 time=0
 note_on channel=0 note=59 velocity=34 time=0
 note_on channel=0 note=35 velocity=28 time=0
 note_on channel=0 note=47 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=113
 note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
@@ -370,6 +387,7 @@ note_on channel=0 note=64 velocity=30 time=0
 note_on channel=0 note=76 velocity=36 time=0
 note_on channel=0 note=40 velocity=25 time=0
 note_on channel=0 note=52 velocity=30 time=0
+control_change channel=0 control=64 value=0 time=13
 note_on channel=0 note=52 velocity=0 time=107
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -378,6 +396,7 @@ note_on channel=0 note=76 velocity=42 time=0
 note_on channel=0 note=64 velocity=35 time=0
 note_on channel=0 note=40 velocity=28 time=0
 note_on channel=0 note=52 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=92
 note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
@@ -386,6 +405,7 @@ note_on channel=0 note=71 velocity=30 time=0
 note_on channel=0 note=83 velocity=36 time=0
 note_on channel=0 note=47 velocity=25 time=0
 note_on channel=0 note=59 velocity=30 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=59 velocity=0 time=101
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
@@ -394,6 +414,7 @@ note_on channel=0 note=83 velocity=40 time=0
 note_on channel=0 note=71 velocity=34 time=0
 note_on channel=0 note=47 velocity=28 time=0
 note_on channel=0 note=59 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=71
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -402,6 +423,7 @@ note_on channel=0 note=88 velocity=36 time=0
 note_on channel=0 note=76 velocity=30 time=0
 note_on channel=0 note=52 velocity=25 time=0
 note_on channel=0 note=64 velocity=30 time=0
+control_change channel=0 control=64 value=0 time=18
 note_on channel=0 note=64 velocity=0 time=102
 note_on channel=0 note=88 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -410,6 +432,7 @@ note_on channel=0 note=76 velocity=34 time=0
 note_on channel=0 note=88 velocity=41 time=0
 note_on channel=0 note=52 velocity=28 time=0
 note_on channel=0 note=64 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=88 velocity=0 time=0
@@ -422,6 +445,7 @@ note_on channel=0 note=55 velocity=54 time=0
 note_on channel=0 note=59 velocity=54 time=0
 note_on channel=0 note=62 velocity=54 time=0
 note_on channel=0 note=65 velocity=65 time=0
+control_change channel=0 control=64 value=0 time=13
 note_on channel=0 note=65 velocity=0 time=107
 note_on channel=0 note=77 velocity=0 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -641,9 +665,12 @@ note_on channel=0 note=60 velocity=44 time=0
 note_on channel=0 note=62 velocity=0 time=16
 note_on channel=0 note=58 velocity=53 time=144
 note_on channel=0 note=60 velocity=0 time=13
+control_change channel=0 control=64 value=127 time=104
 note_on channel=0 note=58 velocity=0 time=350
 note_on channel=0 note=58 velocity=53 time=0
 note_on channel=0 note=64 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=51
 note_on channel=0 note=64 velocity=0 time=368
 note_on channel=0 note=64 velocity=62 time=0
 note_on channel=0 note=64 velocity=0 time=0
@@ -651,6 +678,8 @@ note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=67 velocity=53 time=0
 note_on channel=0 note=58 velocity=45 time=0
 note_on channel=0 note=64 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=75
 note_on channel=0 note=64 velocity=0 time=344
 note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
@@ -664,6 +693,8 @@ note_on channel=0 note=67 velocity=53 time=0
 note_on channel=0 note=73 velocity=63 time=0
 note_on channel=0 note=58 velocity=45 time=0
 note_on channel=0 note=64 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=53
 note_on channel=0 note=64 velocity=0 time=365
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=73 velocity=0 time=0
@@ -683,6 +714,8 @@ note_on channel=0 note=58 velocity=49 time=0
 note_on channel=0 note=61 velocity=49 time=0
 note_on channel=0 note=64 velocity=49 time=0
 note_on channel=0 note=67 velocity=59 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=43
 note_on channel=0 note=67 velocity=0 time=375
 note_on channel=0 note=61 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -697,14 +730,20 @@ note_on channel=0 note=58 velocity=58 time=0
 note_on channel=0 note=61 velocity=58 time=0
 note_on channel=0 note=64 velocity=58 time=0
 note_on channel=0 note=67 velocity=69 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=259
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=79 velocity=0 time=0
 note_on channel=0 note=78 velocity=80 time=0
 note_on channel=0 note=66 velocity=63 time=0
+control_change channel=0 control=64 value=0 time=16
+control_change channel=0 control=64 value=127 time=171
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=78 velocity=0 time=0
 note_on channel=0 note=77 velocity=84 time=0
 note_on channel=0 note=65 velocity=77 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=23
 note_on channel=0 note=65 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -719,6 +758,8 @@ note_on channel=0 note=66 velocity=75 time=0
 note_on channel=0 note=64 velocity=63 time=0
 note_on channel=0 note=61 velocity=63 time=0
 note_on channel=0 note=58 velocity=63 time=0
+control_change channel=0 control=64 value=0 time=21
+control_change channel=0 control=64 value=127 time=42
 note_on channel=0 note=58 velocity=0 time=369
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -732,12 +773,14 @@ note_on channel=0 note=78 velocity=95 time=0
 note_on channel=0 note=66 velocity=48 time=0
 note_on channel=0 note=62 velocity=40 time=0
 note_on channel=0 note=59 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=7
 note_on channel=0 note=59 velocity=0 time=113
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=59 velocity=33 time=120
 note_on channel=0 note=62 velocity=33 time=0
 note_on channel=0 note=66 velocity=40 time=0
+control_change channel=0 control=64 value=127 time=54
 note_on channel=0 note=66 velocity=0 time=66
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -774,6 +817,8 @@ note_on channel=0 note=83 velocity=94 time=0
 note_on channel=0 note=59 velocity=48 time=0
 note_on channel=0 note=54 velocity=40 time=0
 note_on channel=0 note=50 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=48
 note_on channel=0 note=50 velocity=0 time=63
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=54 velocity=0 time=0
@@ -815,6 +860,7 @@ note_on channel=0 note=71 velocity=49 time=0
 note_on channel=0 note=57 velocity=44 time=0
 note_on channel=0 note=54 velocity=37 time=0
 note_on channel=0 note=51 velocity=37 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=51 velocity=0 time=120
 note_on channel=0 note=57 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -964,6 +1010,7 @@ note_on channel=0 note=68 velocity=39 time=0
 note_on channel=0 note=71 velocity=39 time=0
 note_on channel=0 note=76 velocity=46 time=0
 note_on channel=0 note=61 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=49
 note_on channel=0 note=61 velocity=0 time=68
 note_on channel=0 note=68 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -972,6 +1019,8 @@ note_on channel=0 note=77 velocity=38 time=120
 note_on channel=0 note=71 velocity=32 time=0
 note_on channel=0 note=68 velocity=32 time=0
 note_on channel=0 note=61 velocity=32 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=90
 note_on channel=0 note=61 velocity=0 time=17
 note_on channel=0 note=77 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -1012,6 +1061,8 @@ note_on channel=0 note=68 velocity=39 time=120
 note_on channel=0 note=71 velocity=39 time=0
 note_on channel=0 note=77 velocity=46 time=0
 note_on channel=0 note=61 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=19
 note_on channel=0 note=61 velocity=0 time=68
 note_on channel=0 note=68 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -1065,6 +1116,7 @@ note_on channel=0 note=54 velocity=60 time=0
 note_on channel=0 note=58 velocity=60 time=0
 note_on channel=0 note=61 velocity=60 time=0
 note_on channel=0 note=64 velocity=71 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=64 velocity=0 time=120
 note_on channel=0 note=88 velocity=0 time=0
 note_on channel=0 note=78 velocity=0 time=0
@@ -1083,6 +1135,7 @@ note_on channel=0 note=64 velocity=59 time=0
 note_on channel=0 note=61 velocity=49 time=0
 note_on channel=0 note=58 velocity=49 time=0
 note_on channel=0 note=54 velocity=49 time=0
+control_change channel=0 control=64 value=127 time=50
 note_on channel=0 note=54 velocity=0 time=70
 note_on channel=0 note=88 velocity=0 time=0
 note_on channel=0 note=79 velocity=0 time=0
@@ -1275,6 +1328,8 @@ note_on channel=0 note=61 velocity=0 time=0
 note_on channel=0 note=91 velocity=56 time=0
 note_on channel=0 note=79 velocity=56 time=0
 note_on channel=0 note=47 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=47 velocity=0 time=68
 note_on channel=0 note=62 velocity=34 time=0
 note_on channel=0 note=62 velocity=0 time=120
@@ -1287,6 +1342,8 @@ note_on channel=0 note=91 velocity=0 time=0
 note_on channel=0 note=90 velocity=56 time=0
 note_on channel=0 note=78 velocity=56 time=0
 note_on channel=0 note=49 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=46
 note_on channel=0 note=49 velocity=0 time=68
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1295,6 +1352,8 @@ note_on channel=0 note=54 velocity=0 time=120
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
 note_on channel=0 note=50 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=46
 note_on channel=0 note=50 velocity=0 time=57
 note_on channel=0 note=66 velocity=35 time=0
 note_on channel=0 note=66 velocity=0 time=120
@@ -1315,6 +1374,8 @@ note_on channel=0 note=90 velocity=0 time=0
 note_on channel=0 note=71 velocity=56 time=0
 note_on channel=0 note=83 velocity=56 time=0
 note_on channel=0 note=49 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=52
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=49 velocity=0 time=5
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1323,6 +1384,8 @@ note_on channel=0 note=54 velocity=0 time=120
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
 note_on channel=0 note=50 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=50 velocity=0 time=51
 note_on channel=0 note=66 velocity=35 time=0
 note_on channel=0 note=66 velocity=0 time=120
@@ -1343,6 +1406,8 @@ note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=66 velocity=56 time=0
 note_on channel=0 note=78 velocity=56 time=0
 note_on channel=0 note=49 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=94
 note_on channel=0 note=49 velocity=0 time=17
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1351,6 +1416,8 @@ note_on channel=0 note=54 velocity=0 time=120
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
 note_on channel=0 note=50 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=82
 note_on channel=0 note=50 velocity=0 time=23
 note_on channel=0 note=66 velocity=35 time=0
 note_on channel=0 note=66 velocity=0 time=120
@@ -1371,6 +1438,8 @@ note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=59 velocity=56 time=0
 note_on channel=0 note=71 velocity=56 time=0
 note_on channel=0 note=49 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=49 velocity=0 time=51
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1379,6 +1448,8 @@ note_on channel=0 note=54 velocity=0 time=120
 note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=64 velocity=0 time=120
 note_on channel=0 note=50 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=67
 note_on channel=0 note=50 velocity=0 time=34
 note_on channel=0 note=66 velocity=35 time=0
 note_on channel=0 note=66 velocity=0 time=120
@@ -1388,6 +1459,8 @@ note_on channel=0 note=66 velocity=35 time=0
 note_on channel=0 note=66 velocity=0 time=120
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=52 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=75
 note_on channel=0 note=52 velocity=0 time=45
 note_on channel=0 note=62 velocity=34 time=0
 note_on channel=0 note=62 velocity=0 time=120
@@ -1398,6 +1471,8 @@ note_on channel=0 note=62 velocity=0 time=120
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=67 velocity=63 time=0
 note_on channel=0 note=53 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=44
 note_on channel=0 note=53 velocity=0 time=57
 note_on channel=0 note=62 velocity=34 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1408,6 +1483,8 @@ note_on channel=0 note=62 velocity=0 time=120
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=66 velocity=57 time=0
 note_on channel=0 note=54 velocity=48 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=61
 note_on channel=0 note=54 velocity=0 time=40
 note_on channel=0 note=62 velocity=35 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1418,6 +1495,8 @@ note_on channel=0 note=66 velocity=0 time=110
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=66 velocity=65 time=0
 note_on channel=0 note=54 velocity=51 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=25
 note_on channel=0 note=54 velocity=0 time=80
 note_on channel=0 note=62 velocity=39 time=0
 note_on channel=0 note=62 velocity=0 time=120
@@ -1436,6 +1515,8 @@ note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=70 velocity=58 time=0
 note_on channel=0 note=54 velocity=45 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=49
 note_on channel=0 note=54 velocity=0 time=57
 note_on channel=0 note=64 velocity=41 time=0
 note_on channel=0 note=64 velocity=0 time=0
@@ -1446,6 +1527,8 @@ note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=70 velocity=0 time=0
 note_on channel=0 note=71 velocity=56 time=0
 note_on channel=0 note=47 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=47 velocity=0 time=45
 note_on channel=0 note=62 velocity=36 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1458,6 +1541,8 @@ note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=79 velocity=0 time=0
 note_on channel=0 note=91 velocity=74 time=0
 note_on channel=0 note=49 velocity=50 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=58
 note_on channel=0 note=49 velocity=0 time=51
 note_on channel=0 note=64 velocity=41 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1477,6 +1562,8 @@ note_on channel=0 note=66 velocity=36 time=0
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=90 velocity=0 time=0
 note_on channel=0 note=47 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=75
 note_on channel=0 note=47 velocity=0 time=45
 note_on channel=0 note=62 velocity=36 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1488,6 +1575,8 @@ note_on channel=0 note=62 velocity=0 time=120
 note_on channel=0 note=90 velocity=0 time=0
 note_on channel=0 note=85 velocity=66 time=0
 note_on channel=0 note=49 velocity=50 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=49 velocity=0 time=51
 note_on channel=0 note=64 velocity=41 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1507,6 +1596,8 @@ note_on channel=0 note=66 velocity=36 time=0
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=47 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=66
 note_on channel=0 note=47 velocity=0 time=45
 note_on channel=0 note=62 velocity=36 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1518,6 +1609,8 @@ note_on channel=0 note=62 velocity=0 time=120
 note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=79 velocity=70 time=0
 note_on channel=0 note=49 velocity=50 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=61
 note_on channel=0 note=49 velocity=0 time=40
 note_on channel=0 note=64 velocity=41 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1537,6 +1630,8 @@ note_on channel=0 note=66 velocity=36 time=0
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=78 velocity=0 time=0
 note_on channel=0 note=47 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=49
 note_on channel=0 note=47 velocity=0 time=63
 note_on channel=0 note=62 velocity=36 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1548,6 +1643,8 @@ note_on channel=0 note=62 velocity=0 time=120
 note_on channel=0 note=78 velocity=0 time=0
 note_on channel=0 note=73 velocity=65 time=0
 note_on channel=0 note=49 velocity=50 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=58
 note_on channel=0 note=49 velocity=0 time=43
 note_on channel=0 note=64 velocity=41 time=0
 note_on channel=0 note=64 velocity=0 time=120
@@ -1568,6 +1665,8 @@ note_on channel=0 note=71 velocity=0 time=110
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=71 velocity=63 time=0
 note_on channel=0 note=52 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=52 velocity=0 time=51
 note_on channel=0 note=62 velocity=34 time=0
 note_on channel=0 note=62 velocity=0 time=120
@@ -1578,6 +1677,8 @@ note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=67 velocity=63 time=0
 note_on channel=0 note=53 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=56
 note_on channel=0 note=53 velocity=0 time=45
 note_on channel=0 note=62 velocity=34 time=0
 note_on channel=0 note=62 velocity=0 time=120
@@ -1588,6 +1689,8 @@ note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=66 velocity=65 time=0
 note_on channel=0 note=54 velocity=48 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=50
 note_on channel=0 note=54 velocity=0 time=57
 note_on channel=0 note=62 velocity=35 time=0
 note_on channel=0 note=62 velocity=0 time=120
@@ -1598,6 +1701,8 @@ note_on channel=0 note=66 velocity=0 time=110
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=66 velocity=71 time=0
 note_on channel=0 note=54 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=7
+control_change channel=0 control=64 value=127 time=142
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=62 velocity=65 time=0
 note_on channel=0 note=62 velocity=0 time=0
@@ -1617,6 +1722,7 @@ note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=59 velocity=80 time=0
 note_on channel=0 note=47 velocity=93 time=0
 note_on channel=0 note=35 velocity=79 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=35 velocity=0 time=120
 note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=49 velocity=81 time=120
@@ -1636,6 +1742,7 @@ note_on channel=0 note=54 velocity=94 time=0
 note_on channel=0 note=42 velocity=80 time=0
 note_on channel=0 note=59 velocity=79 time=0
 note_on channel=0 note=55 velocity=67 time=0
+control_change channel=0 control=64 value=127 time=374
 note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=54 velocity=0 time=0
 note_on channel=0 note=42 velocity=0 time=0
@@ -1644,6 +1751,8 @@ note_on channel=0 note=60 velocity=34 time=0
 note_on channel=0 note=55 velocity=28 time=0
 note_on channel=0 note=40 velocity=37 time=0
 note_on channel=0 note=52 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=232
 note_on channel=0 note=60 velocity=0 time=720
 note_on channel=0 note=67 velocity=39 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -1654,8 +1763,11 @@ note_on channel=0 note=58 velocity=27 time=0
 note_on channel=0 note=61 velocity=27 time=0
 note_on channel=0 note=54 velocity=43 time=0
 note_on channel=0 note=42 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=285
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=66 velocity=33 time=0
+control_change channel=0 control=64 value=0 time=17
 note_on channel=0 note=66 velocity=0 time=453
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=61 velocity=0 time=0
@@ -1688,6 +1800,7 @@ note_on channel=0 note=54 velocity=94 time=0
 note_on channel=0 note=42 velocity=80 time=0
 note_on channel=0 note=59 velocity=79 time=0
 note_on channel=0 note=55 velocity=67 time=0
+control_change channel=0 control=64 value=127 time=294
 note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=54 velocity=0 time=0
 note_on channel=0 note=42 velocity=0 time=0
@@ -1696,6 +1809,8 @@ note_on channel=0 note=60 velocity=34 time=0
 note_on channel=0 note=55 velocity=28 time=0
 note_on channel=0 note=40 velocity=37 time=0
 note_on channel=0 note=52 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=281
 note_on channel=0 note=60 velocity=0 time=666
 note_on channel=0 note=67 velocity=39 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -1706,6 +1821,8 @@ note_on channel=0 note=58 velocity=27 time=0
 note_on channel=0 note=61 velocity=27 time=0
 note_on channel=0 note=42 velocity=24 time=0
 note_on channel=0 note=54 velocity=29 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=308
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=66 velocity=33 time=0
 note_on channel=0 note=66 velocity=0 time=470
@@ -1714,7 +1831,9 @@ note_on channel=0 note=61 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=42 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=12
 note_on channel=0 note=67 velocity=39 time=27
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=59 velocity=24 time=0
 note_on channel=0 note=62 velocity=24 time=0
 note_on channel=0 note=47 velocity=23 time=0
@@ -1725,8 +1844,10 @@ note_on channel=0 note=47 velocity=0 time=453
 note_on channel=0 note=35 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=62 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=66 velocity=0 time=27
 note_on channel=0 note=67 velocity=39 time=960
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=61 velocity=24 time=0
 note_on channel=0 note=64 velocity=24 time=0
 note_on channel=0 note=42 velocity=23 time=0
@@ -1743,32 +1864,40 @@ note_on channel=0 note=62 velocity=28 time=0
 note_on channel=0 note=71 velocity=33 time=0
 note_on channel=0 note=35 velocity=19 time=0
 note_on channel=0 note=47 velocity=23 time=0
+control_change channel=0 control=64 value=0 time=4
+control_change channel=0 control=64 value=127 time=236
 note_on channel=0 note=47 velocity=0 time=240
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=35 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=107
 note_on channel=0 note=59 velocity=28 time=853
 note_on channel=0 note=62 velocity=28 time=0
 note_on channel=0 note=71 velocity=33 time=0
 note_on channel=0 note=35 velocity=19 time=0
 note_on channel=0 note=47 velocity=23 time=0
+control_change channel=0 control=64 value=127 time=0
 note_on channel=0 note=47 velocity=0 time=480
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=35 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=27
 note_on channel=0 note=59 velocity=28 time=933
 note_on channel=0 note=62 velocity=28 time=0
 note_on channel=0 note=71 velocity=33 time=0
 note_on channel=0 note=35 velocity=19 time=0
 note_on channel=0 note=47 velocity=23 time=0
+control_change channel=0 control=64 value=127 time=0
 note_on channel=0 note=47 velocity=0 time=480
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=35 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=14
 note_on channel=0 note=71 velocity=33 time=946
+control_change channel=0 control=64 value=127 time=294
 note_on channel=0 note=71 velocity=0 time=1136
 note_on channel=0 note=71 velocity=33 time=10
 note_on channel=0 note=71 velocity=0 time=1430
@@ -1778,6 +1907,7 @@ note_on channel=0 note=81 velocity=42 time=0
 note_on channel=0 note=71 velocity=34 time=0
 note_on channel=0 note=69 velocity=30 time=0
 note_on channel=0 note=66 velocity=25 time=0
+control_change channel=0 control=64 value=0 time=8
 note_on channel=0 note=66 velocity=0 time=112
 note_on channel=0 note=81 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -1789,6 +1919,7 @@ note_on channel=0 note=81 velocity=46 time=0
 note_on channel=0 note=66 velocity=28 time=0
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=71 velocity=0 time=120
+control_change channel=0 control=64 value=127 time=50
 note_on channel=0 note=71 velocity=30 time=70
 note_on channel=0 note=71 velocity=0 time=120
 note_on channel=0 note=69 velocity=0 time=120
@@ -1804,6 +1935,7 @@ note_on channel=0 note=71 velocity=30 time=0
 note_on channel=0 note=78 velocity=37 time=0
 note_on channel=0 note=69 velocity=31 time=0
 note_on channel=0 note=66 velocity=26 time=0
+control_change channel=0 control=64 value=0 time=78
 note_on channel=0 note=66 velocity=0 time=42
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=78 velocity=0 time=0
@@ -1843,6 +1975,7 @@ note_on channel=0 note=83 velocity=46 time=0
 note_on channel=0 note=80 velocity=27 time=0
 note_on channel=0 note=62 velocity=28 time=0
 note_on channel=0 note=65 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=64
 note_on channel=0 note=71 velocity=0 time=56
 note_on channel=0 note=71 velocity=30 time=120
 note_on channel=0 note=71 velocity=0 time=120
@@ -1861,6 +1994,7 @@ note_on channel=0 note=83 velocity=37 time=0
 note_on channel=0 note=80 velocity=24 time=0
 note_on channel=0 note=65 velocity=30 time=0
 note_on channel=0 note=62 velocity=25 time=0
+control_change channel=0 control=64 value=0 time=17
 note_on channel=0 note=71 velocity=0 time=103
 note_on channel=0 note=65 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
@@ -1898,6 +2032,7 @@ note_on channel=0 note=64 velocity=40 time=0
 note_on channel=0 note=57 velocity=33 time=0
 note_on channel=0 note=60 velocity=40 time=0
 note_on channel=0 note=64 velocity=0 time=120
+control_change channel=0 control=64 value=127 time=50
 note_on channel=0 note=64 velocity=36 time=70
 note_on channel=0 note=64 velocity=0 time=120
 note_on channel=0 note=60 velocity=0 time=120
@@ -1917,6 +2052,7 @@ note_on channel=0 note=81 velocity=48 time=0
 note_on channel=0 note=64 velocity=39 time=0
 note_on channel=0 note=60 velocity=41 time=0
 note_on channel=0 note=57 velocity=34 time=0
+control_change channel=0 control=64 value=0 time=78
 note_on channel=0 note=57 velocity=0 time=42
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=69 velocity=0 time=0
@@ -1957,6 +2093,7 @@ note_on channel=0 note=86 velocity=73 time=0
 note_on channel=0 note=65 velocity=53 time=0
 note_on channel=0 note=56 velocity=45 time=0
 note_on channel=0 note=58 velocity=53 time=0
+control_change channel=0 control=64 value=127 time=108
 note_on channel=0 note=65 velocity=0 time=12
 note_on channel=0 note=65 velocity=49 time=120
 note_on channel=0 note=65 velocity=0 time=120
@@ -1977,6 +2114,7 @@ note_on channel=0 note=86 velocity=64 time=0
 note_on channel=0 note=65 velocity=51 time=0
 note_on channel=0 note=58 velocity=53 time=0
 note_on channel=0 note=56 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=78
 note_on channel=0 note=56 velocity=0 time=42
 note_on channel=0 note=65 velocity=0 time=0
 note_on channel=0 note=74 velocity=0 time=0
@@ -1989,6 +2127,7 @@ note_on channel=0 note=87 velocity=97 time=0
 note_on channel=0 note=55 velocity=56 time=0
 note_on channel=0 note=58 velocity=56 time=0
 note_on channel=0 note=63 velocity=67 time=0
+control_change channel=0 control=64 value=127 time=35
 note_on channel=0 note=63 velocity=0 time=85
 note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=58 velocity=0 time=0
@@ -2021,6 +2160,7 @@ note_on channel=0 note=75 velocity=71 time=0
 note_on channel=0 note=63 velocity=61 time=0
 note_on channel=0 note=58 velocity=51 time=0
 note_on channel=0 note=55 velocity=51 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=55 velocity=0 time=101
 note_on channel=0 note=63 velocity=0 time=0
 note_on channel=0 note=58 velocity=0 time=0
@@ -2035,6 +2175,7 @@ note_on channel=0 note=63 velocity=0 time=0
 note_on channel=0 note=63 velocity=89 time=0
 note_on channel=0 note=54 velocity=56 time=0
 note_on channel=0 note=58 velocity=56 time=0
+control_change channel=0 control=64 value=127 time=35
 note_on channel=0 note=58 velocity=0 time=85
 note_on channel=0 note=54 velocity=0 time=0
 note_on channel=0 note=58 velocity=51 time=120
@@ -2055,6 +2196,7 @@ note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=63 velocity=71 time=0
 note_on channel=0 note=58 velocity=51 time=0
 note_on channel=0 note=54 velocity=51 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=54 velocity=0 time=101
 note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=63 velocity=0 time=0
@@ -2066,6 +2208,7 @@ note_on channel=0 note=63 velocity=75 time=0
 note_on channel=0 note=51 velocity=47 time=0
 note_on channel=0 note=54 velocity=57 time=0
 note_on channel=0 note=66 velocity=90 time=6
+control_change channel=0 control=64 value=127 time=29
 note_on channel=0 note=54 velocity=0 time=85
 note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=54 velocity=52 time=120
@@ -2090,6 +2233,7 @@ note_on channel=0 note=66 velocity=73 time=0
 note_on channel=0 note=63 velocity=62 time=0
 note_on channel=0 note=54 velocity=53 time=0
 note_on channel=0 note=51 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=51 velocity=0 time=101
 note_on channel=0 note=54 velocity=0 time=0
 note_on channel=0 note=63 velocity=0 time=0
@@ -2102,6 +2246,7 @@ note_on channel=0 note=78 velocity=92 time=0
 note_on channel=0 note=75 velocity=78 time=0
 note_on channel=0 note=51 velocity=58 time=0
 note_on channel=0 note=48 velocity=49 time=6
+control_change channel=0 control=64 value=127 time=29
 note_on channel=0 note=51 velocity=0 time=85
 note_on channel=0 note=48 velocity=0 time=6
 note_on channel=0 note=51 velocity=53 time=114
@@ -2126,6 +2271,7 @@ note_on channel=0 note=78 velocity=75 time=0
 note_on channel=0 note=75 velocity=63 time=0
 note_on channel=0 note=51 velocity=54 time=0
 note_on channel=0 note=48 velocity=45 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=48 velocity=0 time=101
 note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=75 velocity=0 time=0
@@ -2138,6 +2284,7 @@ note_on channel=0 note=84 velocity=94 time=0
 note_on channel=0 note=72 velocity=79 time=0
 note_on channel=0 note=45 velocity=50 time=0
 note_on channel=0 note=48 velocity=59 time=0
+control_change channel=0 control=64 value=127 time=35
 note_on channel=0 note=48 velocity=0 time=85
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=48 velocity=54 time=120
@@ -2162,6 +2309,7 @@ note_on channel=0 note=84 velocity=77 time=0
 note_on channel=0 note=72 velocity=65 time=0
 note_on channel=0 note=48 velocity=55 time=0
 note_on channel=0 note=45 velocity=46 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=45 velocity=0 time=101
 note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
@@ -2174,6 +2322,7 @@ note_on channel=0 note=57 velocity=97 time=0
 note_on channel=0 note=42 velocity=61 time=0
 note_on channel=0 note=45 velocity=61 time=0
 note_on channel=0 note=48 velocity=61 time=0
+control_change channel=0 control=64 value=127 time=35
 note_on channel=0 note=48 velocity=0 time=85
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=42 velocity=0 time=0
@@ -2202,6 +2351,7 @@ note_on channel=0 note=57 velocity=78 time=0
 note_on channel=0 note=42 velocity=56 time=0
 note_on channel=0 note=48 velocity=56 time=0
 note_on channel=0 note=45 velocity=56 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=45 velocity=0 time=101
 note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=42 velocity=0 time=0
@@ -2218,6 +2368,7 @@ note_on channel=0 note=39 velocity=52 time=0
 note_on channel=0 note=42 velocity=52 time=0
 note_on channel=0 note=45 velocity=52 time=0
 note_on channel=0 note=48 velocity=62 time=0
+control_change channel=0 control=64 value=127 time=35
 note_on channel=0 note=48 velocity=0 time=85
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=39 velocity=0 time=0
@@ -2258,6 +2409,7 @@ note_on channel=0 note=39 velocity=49 time=0
 note_on channel=0 note=42 velocity=49 time=0
 note_on channel=0 note=48 velocity=58 time=0
 note_on channel=0 note=45 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=45 velocity=0 time=101
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=39 velocity=0 time=0
@@ -2279,6 +2431,7 @@ note_on channel=0 note=38 velocity=54 time=0
 note_on channel=0 note=42 velocity=54 time=0
 note_on channel=0 note=45 velocity=54 time=0
 note_on channel=0 note=48 velocity=64 time=0
+control_change channel=0 control=64 value=127 time=35
 note_on channel=0 note=48 velocity=0 time=85
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=38 velocity=0 time=0
@@ -2323,6 +2476,7 @@ note_on channel=0 note=38 velocity=49 time=0
 note_on channel=0 note=42 velocity=49 time=0
 note_on channel=0 note=48 velocity=58 time=0
 note_on channel=0 note=45 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=19
 note_on channel=0 note=45 velocity=0 time=101
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=38 velocity=0 time=0
@@ -2343,6 +2497,7 @@ note_on channel=0 note=68 velocity=80 time=0
 note_on channel=0 note=65 velocity=80 time=0
 note_on channel=0 note=43 velocity=73 time=0
 note_on channel=0 note=31 velocity=57 time=0
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=31 velocity=0 time=63
 note_on channel=0 note=43 velocity=0 time=0
 note_on channel=0 note=31 velocity=54 time=0
@@ -2356,6 +2511,7 @@ note_on channel=0 note=43 velocity=69 time=0
 note_on channel=0 note=31 velocity=54 time=0
 note_on channel=0 note=31 velocity=0 time=120
 note_on channel=0 note=43 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=50
 note_on channel=0 note=69 velocity=32 time=0
 note_on channel=0 note=71 velocity=32 time=0
 note_on channel=0 note=77 velocity=45 time=0
@@ -2373,6 +2529,7 @@ note_on channel=0 note=69 velocity=37 time=0
 note_on channel=0 note=66 velocity=37 time=0
 note_on channel=0 note=43 velocity=31 time=240
 note_on channel=0 note=31 velocity=22 time=0
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=31 velocity=0 time=63
 note_on channel=0 note=43 velocity=0 time=0
 note_on channel=0 note=75 velocity=0 time=120
@@ -2382,6 +2539,7 @@ note_on channel=0 note=31 velocity=24 time=0
 note_on channel=0 note=43 velocity=35 time=0
 note_on channel=0 note=43 velocity=0 time=120
 note_on channel=0 note=31 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=12
 note_on channel=0 note=66 velocity=32 time=0
 note_on channel=0 note=69 velocity=32 time=0
 note_on channel=0 note=75 velocity=45 time=0
@@ -2399,6 +2557,7 @@ note_on channel=0 note=67 velocity=35 time=0
 note_on channel=0 note=64 velocity=35 time=0
 note_on channel=0 note=43 velocity=31 time=240
 note_on channel=0 note=31 velocity=22 time=0
+control_change channel=0 control=64 value=127 time=80
 note_on channel=0 note=31 velocity=0 time=40
 note_on channel=0 note=43 velocity=0 time=0
 note_on channel=0 note=73 velocity=0 time=120
@@ -2406,6 +2565,7 @@ note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=31 velocity=24 time=0
 note_on channel=0 note=43 velocity=35 time=0
+control_change channel=0 control=64 value=0 time=40
 note_on channel=0 note=43 velocity=0 time=80
 note_on channel=0 note=31 velocity=0 time=0
 note_on channel=0 note=63 velocity=32 time=0
@@ -2579,6 +2739,7 @@ note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=64 velocity=36 time=30
 note_on channel=0 note=58 velocity=26 time=0
 note_on channel=0 note=60 velocity=26 time=0
+control_change channel=0 control=64 value=127 time=64
 note_on channel=0 note=64 velocity=0 time=56
 note_on channel=0 note=67 velocity=31 time=0
 note_on channel=0 note=67 velocity=0 time=120
@@ -2589,6 +2750,8 @@ note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=77 velocity=39 time=0
 note_on channel=0 note=57 velocity=43 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=77 velocity=0 time=57
 note_on channel=0 note=72 velocity=38 time=0
 note_on channel=0 note=72 velocity=0 time=120
@@ -2613,6 +2776,8 @@ note_on channel=0 note=65 velocity=0 time=0
 note_on channel=0 note=81 velocity=38 time=0
 note_on channel=0 note=62 velocity=42 time=0
 note_on channel=0 note=54 velocity=42 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=69
 note_on channel=0 note=81 velocity=0 time=40
 note_on channel=0 note=74 velocity=32 time=0
 note_on channel=0 note=74 velocity=0 time=120
@@ -2625,6 +2790,8 @@ note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=81 velocity=39 time=0
 note_on channel=0 note=60 velocity=47 time=0
 note_on channel=0 note=55 velocity=47 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=78
 note_on channel=0 note=81 velocity=0 time=34
 note_on channel=0 note=74 velocity=34 time=0
 note_on channel=0 note=74 velocity=0 time=120
@@ -2637,6 +2804,8 @@ note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=79 velocity=52 time=0
 note_on channel=0 note=58 velocity=47 time=0
 note_on channel=0 note=50 velocity=47 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=88
 note_on channel=0 note=79 velocity=0 time=17
 note_on channel=0 note=74 velocity=41 time=0
 note_on channel=0 note=74 velocity=0 time=120
@@ -2649,6 +2818,8 @@ note_on channel=0 note=82 velocity=0 time=10
 note_on channel=0 note=79 velocity=38 time=0
 note_on channel=0 note=53 velocity=43 time=0
 note_on channel=0 note=58 velocity=43 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=56
 note_on channel=0 note=79 velocity=0 time=51
 note_on channel=0 note=73 velocity=32 time=0
 note_on channel=0 note=73 velocity=0 time=120
@@ -2659,6 +2830,8 @@ note_on channel=0 note=82 velocity=0 time=0
 note_on channel=0 note=53 velocity=0 time=0
 note_on channel=0 note=79 velocity=39 time=0
 note_on channel=0 note=52 velocity=41 time=0
+control_change channel=0 control=64 value=0 time=21
+control_change channel=0 control=64 value=127 time=42
 note_on channel=0 note=79 velocity=0 time=57
 note_on channel=0 note=72 velocity=38 time=0
 note_on channel=0 note=72 velocity=0 time=120
@@ -2670,6 +2843,8 @@ note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=76 velocity=54 time=0
 note_on channel=0 note=67 velocity=51 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=54
 note_on channel=0 note=76 velocity=0 time=51
 note_on channel=0 note=72 velocity=47 time=0
 note_on channel=0 note=72 velocity=0 time=120
@@ -2691,6 +2866,8 @@ note_on channel=0 note=84 velocity=0 time=0
 note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=79 velocity=39 time=0
 note_on channel=0 note=53 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=29
+control_change channel=0 control=64 value=127 time=17
 note_on channel=0 note=79 velocity=0 time=74
 note_on channel=0 note=76 velocity=35 time=0
 note_on channel=0 note=76 velocity=0 time=120
@@ -2703,6 +2880,8 @@ note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=81 velocity=46 time=0
 note_on channel=0 note=53 velocity=44 time=0
 note_on channel=0 note=57 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=56
 note_on channel=0 note=81 velocity=0 time=45
 note_on channel=0 note=77 velocity=32 time=0
 note_on channel=0 note=77 velocity=0 time=120
@@ -2722,6 +2901,8 @@ note_on channel=0 note=81 velocity=0 time=120
 note_on channel=0 note=84 velocity=35 time=0
 note_on channel=0 note=84 velocity=0 time=0
 note_on channel=0 note=81 velocity=46 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=81 velocity=0 time=57
 note_on channel=0 note=77 velocity=37 time=0
 note_on channel=0 note=77 velocity=0 time=120
@@ -2742,6 +2923,8 @@ note_on channel=0 note=86 velocity=0 time=0
 note_on channel=0 note=50 velocity=0 time=0
 note_on channel=0 note=82 velocity=45 time=0
 note_on channel=0 note=46 velocity=48 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=82 velocity=0 time=40
 note_on channel=0 note=77 velocity=39 time=0
 note_on channel=0 note=77 velocity=0 time=120
@@ -2752,6 +2935,8 @@ note_on channel=0 note=86 velocity=0 time=0
 note_on channel=0 note=46 velocity=0 time=0
 note_on channel=0 note=83 velocity=47 time=0
 note_on channel=0 note=45 velocity=58 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=70
 note_on channel=0 note=83 velocity=0 time=42
 note_on channel=0 note=77 velocity=38 time=0
 note_on channel=0 note=77 velocity=0 time=120
@@ -2762,6 +2947,8 @@ note_on channel=0 note=86 velocity=0 time=0
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=83 velocity=47 time=0
 note_on channel=0 note=44 velocity=50 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=65
 note_on channel=0 note=83 velocity=0 time=42
 note_on channel=0 note=76 velocity=39 time=0
 note_on channel=0 note=76 velocity=0 time=120
@@ -2810,6 +2997,8 @@ note_on channel=0 note=44 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=83 velocity=53 time=0
 note_on channel=0 note=45 velocity=55 time=0
+control_change channel=0 control=64 value=0 time=7
+control_change channel=0 control=64 value=127 time=64
 note_on channel=0 note=83 velocity=0 time=49
 note_on channel=0 note=76 velocity=44 time=0
 note_on channel=0 note=76 velocity=0 time=120
@@ -2820,6 +3009,8 @@ note_on channel=0 note=84 velocity=0 time=0
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=81 velocity=52 time=0
 note_on channel=0 note=52 velocity=59 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=66
 note_on channel=0 note=81 velocity=0 time=35
 note_on channel=0 note=76 velocity=50 time=0
 note_on channel=0 note=76 velocity=0 time=120
@@ -2840,6 +3031,8 @@ note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=81 velocity=56 time=0
 note_on channel=0 note=47 velocity=56 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=81 velocity=0 time=57
 note_on channel=0 note=74 velocity=48 time=0
 note_on channel=0 note=74 velocity=0 time=120
@@ -2850,6 +3043,8 @@ note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=80 velocity=59 time=0
 note_on channel=0 note=52 velocity=62 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=44
 note_on channel=0 note=80 velocity=0 time=57
 note_on channel=0 note=74 velocity=52 time=0
 note_on channel=0 note=74 velocity=0 time=120
@@ -2870,6 +3065,8 @@ note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=80 velocity=59 time=0
 note_on channel=0 note=48 velocity=61 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=80 velocity=0 time=51
 note_on channel=0 note=72 velocity=56 time=0
 note_on channel=0 note=72 velocity=0 time=120
@@ -2900,6 +3097,8 @@ note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=81 velocity=62 time=0
 note_on channel=0 note=51 velocity=64 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=69
 note_on channel=0 note=81 velocity=0 time=42
 note_on channel=0 note=71 velocity=52 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -2930,6 +3129,8 @@ note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=81 velocity=65 time=0
 note_on channel=0 note=52 velocity=67 time=0
+control_change channel=0 control=64 value=0 time=18
+control_change channel=0 control=64 value=127 time=88
 note_on channel=0 note=81 velocity=0 time=14
 note_on channel=0 note=71 velocity=54 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -2960,6 +3161,8 @@ note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=81 velocity=68 time=0
 note_on channel=0 note=54 velocity=68 time=0
+control_change channel=0 control=64 value=0 time=7
+control_change channel=0 control=64 value=127 time=71
 note_on channel=0 note=81 velocity=0 time=42
 note_on channel=0 note=71 velocity=59 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -2990,6 +3193,8 @@ note_on channel=0 note=54 velocity=0 time=0
 note_on channel=0 note=63 velocity=0 time=0
 note_on channel=0 note=79 velocity=72 time=0
 note_on channel=0 note=55 velocity=74 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=90
 note_on channel=0 note=79 velocity=0 time=21
 note_on channel=0 note=71 velocity=62 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -3020,6 +3225,8 @@ note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=84 velocity=64 time=0
 note_on channel=0 note=57 velocity=77 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=81
 note_on channel=0 note=84 velocity=0 time=28
 note_on channel=0 note=76 velocity=66 time=0
 note_on channel=0 note=76 velocity=0 time=120
@@ -3050,6 +3257,8 @@ note_on channel=0 note=57 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=85 velocity=77 time=0
 note_on channel=0 note=58 velocity=83 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=66
 note_on channel=0 note=85 velocity=0 time=45
 note_on channel=0 note=79 velocity=67 time=0
 note_on channel=0 note=79 velocity=0 time=120
@@ -3080,6 +3289,8 @@ note_on channel=0 note=58 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=83 velocity=87 time=0
 note_on channel=0 note=59 velocity=99 time=0
+control_change channel=0 control=64 value=0 time=7
+control_change channel=0 control=64 value=127 time=62
 note_on channel=0 note=83 velocity=0 time=51
 note_on channel=0 note=79 velocity=74 time=0
 note_on channel=0 note=79 velocity=0 time=120
@@ -3139,6 +3350,8 @@ note_on channel=0 note=87 velocity=76 time=0
 note_on channel=0 note=87 velocity=0 time=0
 note_on channel=0 note=79 velocity=0 time=0
 note_on channel=0 note=91 velocity=85 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=91 velocity=0 time=63
 note_on channel=0 note=90 velocity=79 time=0
 note_on channel=0 note=90 velocity=0 time=120
@@ -3148,6 +3361,8 @@ note_on channel=0 note=87 velocity=76 time=0
 note_on channel=0 note=87 velocity=0 time=0
 note_on channel=0 note=88 velocity=88 time=0
 note_on channel=0 note=79 velocity=86 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=69
 note_on channel=0 note=79 velocity=0 time=34
 note_on channel=0 note=78 velocity=79 time=0
 note_on channel=0 note=78 velocity=0 time=120
@@ -3157,6 +3372,7 @@ note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=75 velocity=74 time=0
 note_on channel=0 note=75 velocity=0 time=0
 note_on channel=0 note=76 velocity=85 time=0
+control_change channel=0 control=64 value=0 time=12
 note_on channel=0 note=76 velocity=0 time=228
 note_on channel=0 note=91 velocity=50 time=0
 note_on channel=0 note=91 velocity=0 time=240
@@ -3478,6 +3694,7 @@ note_on channel=0 note=71 velocity=0 time=456
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=71 velocity=55 time=0
 note_on channel=0 note=55 velocity=45 time=0
+control_change channel=0 control=64 value=127 time=54
 note_on channel=0 note=55 velocity=0 time=426
 note_on channel=0 note=52 velocity=49 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -3486,6 +3703,8 @@ note_on channel=0 note=67 velocity=0 time=456
 note_on channel=0 note=52 velocity=0 time=24
 note_on channel=0 note=67 velocity=44 time=0
 note_on channel=0 note=64 velocity=41 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=280
 note_on channel=0 note=64 velocity=0 time=186
 note_on channel=0 note=60 velocity=40 time=0
 note_on channel=0 note=67 velocity=0 time=480
@@ -3494,6 +3713,8 @@ note_on channel=0 note=64 velocity=0 time=456
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=64 velocity=40 time=0
 note_on channel=0 note=48 velocity=28 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=202
 note_on channel=0 note=36 velocity=28 time=266
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=55 velocity=36 time=0
@@ -3506,10 +3727,13 @@ note_on channel=0 note=51 velocity=24 time=0
 note_on channel=0 note=59 velocity=28 time=0
 note_on channel=0 note=47 velocity=28 time=0
 note_on channel=0 note=35 velocity=24 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=173
 note_on channel=0 note=35 velocity=0 time=677
 note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=89
 note_on channel=0 note=76 velocity=51 time=0
 note_on channel=0 note=88 velocity=61 time=0
 note_on channel=0 note=59 velocity=34 time=480
@@ -3531,6 +3755,7 @@ note_on channel=0 note=60 velocity=51 time=0
 note_on channel=0 note=64 velocity=51 time=0
 note_on channel=0 note=66 velocity=61 time=0
 note_on channel=0 note=45 velocity=39 time=0
+control_change channel=0 control=64 value=127 time=116
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -3539,6 +3764,8 @@ note_on channel=0 note=66 velocity=66 time=0
 note_on channel=0 note=64 velocity=56 time=0
 note_on channel=0 note=61 velocity=56 time=0
 note_on channel=0 note=46 velocity=43 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=135
 note_on channel=0 note=46 velocity=0 time=331
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
@@ -3548,6 +3775,7 @@ note_on channel=0 note=57 velocity=60 time=0
 note_on channel=0 note=63 velocity=60 time=0
 note_on channel=0 note=66 velocity=71 time=0
 note_on channel=0 note=47 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=9
 note_on channel=0 note=66 velocity=0 time=240
 note_on channel=0 note=67 velocity=51 time=0
 note_on channel=0 note=67 velocity=0 time=240
@@ -3593,6 +3821,7 @@ note_on channel=0 note=60 velocity=51 time=0
 note_on channel=0 note=64 velocity=51 time=0
 note_on channel=0 note=66 velocity=61 time=0
 note_on channel=0 note=45 velocity=39 time=0
+control_change channel=0 control=64 value=127 time=182
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -3601,6 +3830,8 @@ note_on channel=0 note=66 velocity=52 time=0
 note_on channel=0 note=64 velocity=44 time=0
 note_on channel=0 note=61 velocity=44 time=0
 note_on channel=0 note=46 velocity=34 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=108
 note_on channel=0 note=46 velocity=0 time=364
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
@@ -3611,6 +3842,7 @@ note_on channel=0 note=63 velocity=46 time=0
 note_on channel=0 note=66 velocity=55 time=0
 note_on channel=0 note=35 velocity=29 time=0
 note_on channel=0 note=47 velocity=38 time=0
+control_change channel=0 control=64 value=0 time=10
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=69 velocity=38 time=0
 note_on channel=0 note=69 velocity=0 time=0
@@ -3642,6 +3874,7 @@ note_on channel=0 note=67 velocity=41 time=0
 note_on channel=0 note=55 velocity=34 time=0
 note_on channel=0 note=31 velocity=28 time=0
 note_on channel=0 note=43 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=85
 note_on channel=0 note=43 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -3650,6 +3883,7 @@ note_on channel=0 note=60 velocity=30 time=0
 note_on channel=0 note=72 velocity=36 time=0
 note_on channel=0 note=36 velocity=25 time=0
 note_on channel=0 note=48 velocity=30 time=0
+control_change channel=0 control=64 value=0 time=14
 note_on channel=0 note=48 velocity=0 time=106
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
@@ -3658,6 +3892,7 @@ note_on channel=0 note=72 velocity=42 time=0
 note_on channel=0 note=60 velocity=35 time=0
 note_on channel=0 note=36 velocity=28 time=0
 note_on channel=0 note=48 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=156
 note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
 note_on channel=0 note=60 velocity=0 time=0
@@ -3666,6 +3901,7 @@ note_on channel=0 note=67 velocity=30 time=0
 note_on channel=0 note=79 velocity=36 time=0
 note_on channel=0 note=43 velocity=25 time=0
 note_on channel=0 note=55 velocity=30 time=0
+control_change channel=0 control=64 value=0 time=15
 note_on channel=0 note=55 velocity=0 time=105
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=79 velocity=0 time=0
@@ -3674,6 +3910,7 @@ note_on channel=0 note=79 velocity=40 time=0
 note_on channel=0 note=67 velocity=34 time=0
 note_on channel=0 note=43 velocity=28 time=0
 note_on channel=0 note=55 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=120
 note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=79 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
@@ -3682,6 +3919,7 @@ note_on channel=0 note=84 velocity=36 time=0
 note_on channel=0 note=72 velocity=30 time=0
 note_on channel=0 note=48 velocity=25 time=0
 note_on channel=0 note=60 velocity=30 time=0
+control_change channel=0 control=64 value=0 time=8
 note_on channel=0 note=60 velocity=0 time=112
 note_on channel=0 note=84 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
@@ -3690,6 +3928,7 @@ note_on channel=0 note=72 velocity=34 time=0
 note_on channel=0 note=84 velocity=41 time=0
 note_on channel=0 note=48 velocity=28 time=0
 note_on channel=0 note=60 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=81
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
 note_on channel=0 note=84 velocity=0 time=0
@@ -3701,6 +3940,7 @@ note_on channel=0 note=59 velocity=54 time=0
 note_on channel=0 note=62 velocity=54 time=0
 note_on channel=0 note=65 velocity=54 time=0
 note_on channel=0 note=67 velocity=65 time=0
+control_change channel=0 control=64 value=0 time=13
 note_on channel=0 note=67 velocity=0 time=107
 note_on channel=0 note=62 velocity=0 time=0
 note_on channel=0 note=86 velocity=0 time=0
@@ -3937,6 +4177,7 @@ note_on channel=0 note=41 velocity=0 time=0
 note_on channel=0 note=57 velocity=42 time=0
 note_on channel=0 note=41 velocity=31 time=0
 note_on channel=0 note=48 velocity=36 time=0
+control_change channel=0 control=64 value=127 time=0
 note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=41 velocity=0 time=0
 note_on channel=0 note=57 velocity=0 time=0
@@ -3944,6 +4185,8 @@ note_on channel=0 note=57 velocity=45 time=0
 note_on channel=0 note=63 velocity=53 time=0
 note_on channel=0 note=48 velocity=40 time=0
 note_on channel=0 note=41 velocity=34 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=51
 note_on channel=0 note=41 velocity=0 time=368
 note_on channel=0 note=57 velocity=0 time=0
 note_on channel=0 note=63 velocity=0 time=0
@@ -3961,6 +4204,8 @@ note_on channel=0 note=69 velocity=53 time=0
 note_on channel=0 note=42 velocity=45 time=0
 note_on channel=0 note=48 velocity=45 time=0
 note_on channel=0 note=57 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=75
 note_on channel=0 note=57 velocity=0 time=344
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=63 velocity=0 time=0
@@ -3982,6 +4227,8 @@ note_on channel=0 note=75 velocity=63 time=0
 note_on channel=0 note=42 velocity=45 time=0
 note_on channel=0 note=48 velocity=45 time=0
 note_on channel=0 note=57 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=53
 note_on channel=0 note=57 velocity=0 time=365
 note_on channel=0 note=69 velocity=0 time=0
 note_on channel=0 note=75 velocity=0 time=0
@@ -4007,6 +4254,8 @@ note_on channel=0 note=84 velocity=69 time=0
 note_on channel=0 note=42 velocity=49 time=0
 note_on channel=0 note=48 velocity=49 time=0
 note_on channel=0 note=57 velocity=59 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=43
 note_on channel=0 note=57 velocity=0 time=375
 note_on channel=0 note=42 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
@@ -4021,6 +4270,8 @@ note_on channel=0 note=84 velocity=78 time=0
 note_on channel=0 note=42 velocity=58 time=0
 note_on channel=0 note=47 velocity=58 time=0
 note_on channel=0 note=57 velocity=58 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=259
 note_on channel=0 note=84 velocity=0 time=0
 note_on channel=0 note=81 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
@@ -4029,6 +4280,8 @@ note_on channel=0 note=71 velocity=68 time=0
 note_on channel=0 note=75 velocity=68 time=0
 note_on channel=0 note=81 velocity=68 time=0
 note_on channel=0 note=83 velocity=80 time=0
+control_change channel=0 control=64 value=0 time=16
+control_change channel=0 control=64 value=127 time=181
 note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=75 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
@@ -4036,6 +4289,8 @@ note_on channel=0 note=81 velocity=0 time=0
 note_on channel=0 note=70 velocity=71 time=0
 note_on channel=0 note=75 velocity=71 time=0
 note_on channel=0 note=82 velocity=84 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=121
 note_on channel=0 note=82 velocity=0 time=0
 note_on channel=0 note=57 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
@@ -4049,6 +4304,8 @@ note_on channel=0 note=75 velocity=69 time=0
 note_on channel=0 note=57 velocity=75 time=0
 note_on channel=0 note=47 velocity=63 time=0
 note_on channel=0 note=42 velocity=63 time=0
+control_change channel=0 control=64 value=0 time=21
+control_change channel=0 control=64 value=127 time=42
 note_on channel=0 note=42 velocity=0 time=369
 note_on channel=0 note=57 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
@@ -4062,9 +4319,11 @@ note_on channel=0 note=83 velocity=95 time=0
 note_on channel=0 note=55 velocity=48 time=0
 note_on channel=0 note=47 velocity=40 time=0
 note_on channel=0 note=43 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=7
 note_on channel=0 note=43 velocity=0 time=113
 note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
+control_change channel=0 control=64 value=127 time=0
 note_on channel=0 note=55 velocity=33 time=120
 note_on channel=0 note=59 velocity=40 time=0
 note_on channel=0 note=59 velocity=0 time=120
@@ -4092,6 +4351,8 @@ note_on channel=0 note=76 velocity=80 time=0
 note_on channel=0 note=88 velocity=94 time=0
 note_on channel=0 note=59 velocity=48 time=0
 note_on channel=0 note=56 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=48
 note_on channel=0 note=56 velocity=0 time=63
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=56 velocity=34 time=120
@@ -4122,6 +4383,7 @@ note_on channel=0 note=76 velocity=49 time=0
 note_on channel=0 note=62 velocity=44 time=0
 note_on channel=0 note=59 velocity=37 time=0
 note_on channel=0 note=56 velocity=37 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=56 velocity=0 time=120
 note_on channel=0 note=74 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -4278,6 +4540,7 @@ note_on channel=0 note=73 velocity=39 time=0
 note_on channel=0 note=76 velocity=39 time=0
 note_on channel=0 note=81 velocity=46 time=0
 note_on channel=0 note=66 velocity=34 time=0
+control_change channel=0 control=64 value=127 time=49
 note_on channel=0 note=66 velocity=0 time=68
 note_on channel=0 note=73 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -4286,6 +4549,8 @@ note_on channel=0 note=82 velocity=38 time=120
 note_on channel=0 note=76 velocity=32 time=0
 note_on channel=0 note=73 velocity=32 time=0
 note_on channel=0 note=66 velocity=32 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=90
 note_on channel=0 note=66 velocity=0 time=17
 note_on channel=0 note=82 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -4326,6 +4591,8 @@ note_on channel=0 note=73 velocity=39 time=120
 note_on channel=0 note=76 velocity=39 time=0
 note_on channel=0 note=82 velocity=46 time=0
 note_on channel=0 note=66 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=19
 note_on channel=0 note=66 velocity=0 time=68
 note_on channel=0 note=73 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
@@ -4375,6 +4642,7 @@ note_on channel=0 note=59 velocity=60 time=0
 note_on channel=0 note=63 velocity=60 time=0
 note_on channel=0 note=66 velocity=60 time=0
 note_on channel=0 note=69 velocity=71 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=69 velocity=0 time=120
 note_on channel=0 note=63 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
@@ -4386,6 +4654,7 @@ note_on channel=0 note=69 velocity=59 time=0
 note_on channel=0 note=66 velocity=49 time=0
 note_on channel=0 note=63 velocity=49 time=0
 note_on channel=0 note=59 velocity=49 time=0
+control_change channel=0 control=64 value=127 time=50
 note_on channel=0 note=59 velocity=0 time=70
 note_on channel=0 note=96 velocity=0 time=0
 note_on channel=0 note=69 velocity=0 time=0
@@ -4515,6 +4784,8 @@ note_on channel=0 note=63 velocity=0 time=0
 note_on channel=0 note=96 velocity=56 time=0
 note_on channel=0 note=84 velocity=56 time=0
 note_on channel=0 note=52 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=52 velocity=0 time=68
 note_on channel=0 note=67 velocity=34 time=0
 note_on channel=0 note=67 velocity=0 time=120
@@ -4527,6 +4798,8 @@ note_on channel=0 note=96 velocity=0 time=0
 note_on channel=0 note=95 velocity=56 time=0
 note_on channel=0 note=83 velocity=56 time=0
 note_on channel=0 note=54 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=6
+control_change channel=0 control=64 value=127 time=46
 note_on channel=0 note=54 velocity=0 time=68
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
@@ -4535,6 +4808,8 @@ note_on channel=0 note=59 velocity=0 time=120
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
 note_on channel=0 note=55 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=46
 note_on channel=0 note=55 velocity=0 time=57
 note_on channel=0 note=71 velocity=35 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -4555,6 +4830,8 @@ note_on channel=0 note=95 velocity=0 time=0
 note_on channel=0 note=76 velocity=56 time=0
 note_on channel=0 note=88 velocity=56 time=0
 note_on channel=0 note=54 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=52
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=54 velocity=0 time=5
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
@@ -4563,6 +4840,8 @@ note_on channel=0 note=59 velocity=0 time=120
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
 note_on channel=0 note=55 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=55 velocity=0 time=51
 note_on channel=0 note=71 velocity=35 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -4583,6 +4862,8 @@ note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=71 velocity=56 time=0
 note_on channel=0 note=83 velocity=56 time=0
 note_on channel=0 note=54 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=94
 note_on channel=0 note=54 velocity=0 time=17
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
@@ -4591,6 +4872,8 @@ note_on channel=0 note=59 velocity=0 time=120
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
 note_on channel=0 note=55 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=82
 note_on channel=0 note=55 velocity=0 time=23
 note_on channel=0 note=71 velocity=35 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -4611,6 +4894,8 @@ note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=64 velocity=56 time=0
 note_on channel=0 note=76 velocity=56 time=0
 note_on channel=0 note=54 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=54 velocity=0 time=51
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
@@ -4619,6 +4904,8 @@ note_on channel=0 note=59 velocity=0 time=120
 note_on channel=0 note=69 velocity=34 time=0
 note_on channel=0 note=69 velocity=0 time=120
 note_on channel=0 note=55 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=67
 note_on channel=0 note=55 velocity=0 time=34
 note_on channel=0 note=71 velocity=35 time=0
 note_on channel=0 note=71 velocity=0 time=120
@@ -4628,6 +4915,8 @@ note_on channel=0 note=71 velocity=35 time=0
 note_on channel=0 note=71 velocity=0 time=120
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=57 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=75
 note_on channel=0 note=57 velocity=0 time=45
 note_on channel=0 note=67 velocity=34 time=0
 note_on channel=0 note=67 velocity=0 time=120
@@ -4638,6 +4927,8 @@ note_on channel=0 note=67 velocity=0 time=120
 note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=72 velocity=63 time=0
 note_on channel=0 note=58 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=44
 note_on channel=0 note=58 velocity=0 time=57
 note_on channel=0 note=67 velocity=34 time=0
 note_on channel=0 note=67 velocity=0 time=0
@@ -4648,6 +4939,8 @@ note_on channel=0 note=67 velocity=0 time=120
 note_on channel=0 note=72 velocity=0 time=0
 note_on channel=0 note=71 velocity=57 time=0
 note_on channel=0 note=59 velocity=48 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=61
 note_on channel=0 note=59 velocity=0 time=40
 note_on channel=0 note=67 velocity=35 time=0
 note_on channel=0 note=67 velocity=0 time=0
@@ -4658,6 +4951,8 @@ note_on channel=0 note=71 velocity=0 time=110
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=71 velocity=65 time=0
 note_on channel=0 note=59 velocity=51 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=25
 note_on channel=0 note=59 velocity=0 time=80
 note_on channel=0 note=67 velocity=39 time=0
 note_on channel=0 note=67 velocity=0 time=120
@@ -4676,6 +4971,8 @@ note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=75 velocity=58 time=0
 note_on channel=0 note=59 velocity=45 time=0
+control_change channel=0 control=64 value=0 time=14
+control_change channel=0 control=64 value=127 time=49
 note_on channel=0 note=59 velocity=0 time=57
 note_on channel=0 note=69 velocity=41 time=0
 note_on channel=0 note=69 velocity=0 time=0
@@ -4686,6 +4983,8 @@ note_on channel=0 note=69 velocity=0 time=0
 note_on channel=0 note=75 velocity=0 time=0
 note_on channel=0 note=76 velocity=56 time=0
 note_on channel=0 note=40 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=63
 note_on channel=0 note=40 velocity=0 time=45
 note_on channel=0 note=55 velocity=31 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -4698,6 +4997,8 @@ note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=72 velocity=0 time=0
 note_on channel=0 note=84 velocity=73 time=0
 note_on channel=0 note=42 velocity=45 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=58
 note_on channel=0 note=42 velocity=0 time=51
 note_on channel=0 note=57 velocity=36 time=0
 note_on channel=0 note=57 velocity=0 time=120
@@ -4717,6 +5018,8 @@ note_on channel=0 note=59 velocity=32 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=40 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=0
+control_change channel=0 control=64 value=127 time=75
 note_on channel=0 note=40 velocity=0 time=45
 note_on channel=0 note=55 velocity=31 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -4728,6 +5031,8 @@ note_on channel=0 note=55 velocity=0 time=120
 note_on channel=0 note=83 velocity=0 time=0
 note_on channel=0 note=78 velocity=68 time=0
 note_on channel=0 note=42 velocity=45 time=0
+control_change channel=0 control=64 value=0 time=17
+control_change channel=0 control=64 value=127 time=52
 note_on channel=0 note=42 velocity=0 time=51
 note_on channel=0 note=57 velocity=36 time=0
 note_on channel=0 note=57 velocity=0 time=120
@@ -4747,6 +5052,8 @@ note_on channel=0 note=59 velocity=32 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=40 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=66
 note_on channel=0 note=40 velocity=0 time=45
 note_on channel=0 note=55 velocity=31 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -4758,6 +5065,8 @@ note_on channel=0 note=55 velocity=0 time=120
 note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=72 velocity=69 time=0
 note_on channel=0 note=42 velocity=45 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=61
 note_on channel=0 note=42 velocity=0 time=40
 note_on channel=0 note=57 velocity=36 time=0
 note_on channel=0 note=57 velocity=0 time=120
@@ -4777,6 +5086,8 @@ note_on channel=0 note=59 velocity=32 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=40 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=49
 note_on channel=0 note=40 velocity=0 time=63
 note_on channel=0 note=55 velocity=30 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -4788,6 +5099,8 @@ note_on channel=0 note=55 velocity=0 time=120
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=66 velocity=63 time=0
 note_on channel=0 note=42 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=58
 note_on channel=0 note=42 velocity=0 time=43
 note_on channel=0 note=57 velocity=30 time=0
 note_on channel=0 note=57 velocity=0 time=120
@@ -4808,6 +5121,8 @@ note_on channel=0 note=64 velocity=0 time=110
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=64 velocity=63 time=0
 note_on channel=0 note=45 velocity=40 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=57
 note_on channel=0 note=45 velocity=0 time=51
 note_on channel=0 note=55 velocity=34 time=0
 note_on channel=0 note=55 velocity=0 time=120
@@ -4818,6 +5133,8 @@ note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=60 velocity=63 time=0
 note_on channel=0 note=46 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=19
+control_change channel=0 control=64 value=127 time=56
 note_on channel=0 note=46 velocity=0 time=45
 note_on channel=0 note=55 velocity=34 time=0
 note_on channel=0 note=55 velocity=0 time=120
@@ -4828,6 +5145,8 @@ note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=59 velocity=65 time=0
 note_on channel=0 note=47 velocity=48 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=50
 note_on channel=0 note=47 velocity=0 time=57
 note_on channel=0 note=55 velocity=35 time=0
 note_on channel=0 note=55 velocity=0 time=120
@@ -4838,6 +5157,8 @@ note_on channel=0 note=59 velocity=0 time=110
 note_on channel=0 note=55 velocity=0 time=0
 note_on channel=0 note=59 velocity=71 time=0
 note_on channel=0 note=47 velocity=53 time=0
+control_change channel=0 control=64 value=0 time=7
+control_change channel=0 control=64 value=127 time=142
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=55 velocity=65 time=0
 note_on channel=0 note=55 velocity=0 time=0
@@ -4854,6 +5175,7 @@ note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=35 velocity=0 time=0
 note_on channel=0 note=52 velocity=80 time=0
 note_on channel=0 note=40 velocity=79 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=40 velocity=0 time=120
 note_on channel=0 note=54 velocity=81 time=120
 note_on channel=0 note=42 velocity=69 time=0
@@ -4872,6 +5194,7 @@ note_on channel=0 note=59 velocity=94 time=0
 note_on channel=0 note=47 velocity=80 time=0
 note_on channel=0 note=64 velocity=79 time=0
 note_on channel=0 note=60 velocity=67 time=0
+control_change channel=0 control=64 value=127 time=374
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
@@ -4880,6 +5203,8 @@ note_on channel=0 note=65 velocity=34 time=0
 note_on channel=0 note=60 velocity=28 time=0
 note_on channel=0 note=45 velocity=37 time=0
 note_on channel=0 note=57 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=232
 note_on channel=0 note=65 velocity=0 time=720
 note_on channel=0 note=72 velocity=39 time=0
 note_on channel=0 note=60 velocity=0 time=0
@@ -4890,8 +5215,11 @@ note_on channel=0 note=63 velocity=27 time=0
 note_on channel=0 note=66 velocity=27 time=0
 note_on channel=0 note=59 velocity=43 time=0
 note_on channel=0 note=47 velocity=36 time=0
+control_change channel=0 control=64 value=0 time=9
+control_change channel=0 control=64 value=127 time=285
 note_on channel=0 note=72 velocity=0 time=0
 note_on channel=0 note=71 velocity=33 time=0
+control_change channel=0 control=64 value=0 time=17
 note_on channel=0 note=71 velocity=0 time=453
 note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -4924,6 +5252,7 @@ note_on channel=0 note=47 velocity=94 time=0
 note_on channel=0 note=35 velocity=80 time=0
 note_on channel=0 note=52 velocity=79 time=0
 note_on channel=0 note=48 velocity=67 time=0
+control_change channel=0 control=64 value=127 time=294
 note_on channel=0 note=48 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=35 velocity=0 time=0
@@ -4932,6 +5261,8 @@ note_on channel=0 note=53 velocity=34 time=0
 note_on channel=0 note=48 velocity=28 time=0
 note_on channel=0 note=33 velocity=37 time=0
 note_on channel=0 note=45 velocity=44 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=281
 note_on channel=0 note=53 velocity=0 time=666
 note_on channel=0 note=60 velocity=39 time=0
 note_on channel=0 note=48 velocity=0 time=0
@@ -4942,6 +5273,8 @@ note_on channel=0 note=51 velocity=27 time=0
 note_on channel=0 note=54 velocity=27 time=0
 note_on channel=0 note=35 velocity=24 time=0
 note_on channel=0 note=47 velocity=29 time=0
+control_change channel=0 control=64 value=0 time=12
+control_change channel=0 control=64 value=127 time=308
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=59 velocity=33 time=0
 note_on channel=0 note=59 velocity=0 time=470
@@ -4950,7 +5283,9 @@ note_on channel=0 note=54 velocity=0 time=0
 note_on channel=0 note=57 velocity=0 time=0
 note_on channel=0 note=51 velocity=0 time=0
 note_on channel=0 note=35 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=12
 note_on channel=0 note=60 velocity=39 time=27
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=52 velocity=24 time=0
 note_on channel=0 note=55 velocity=24 time=0
 note_on channel=0 note=47 velocity=23 time=0
@@ -4961,8 +5296,10 @@ note_on channel=0 note=47 velocity=0 time=453
 note_on channel=0 note=40 velocity=0 time=0
 note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=55 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=59 velocity=0 time=27
 note_on channel=0 note=60 velocity=39 time=960
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=54 velocity=24 time=0
 note_on channel=0 note=57 velocity=24 time=0
 note_on channel=0 note=47 velocity=23 time=0
@@ -4977,10 +5314,14 @@ note_on channel=0 note=35 velocity=0 time=0
 note_on channel=0 note=55 velocity=28 time=0
 note_on channel=0 note=64 velocity=33 time=0
 note_on channel=0 note=40 velocity=23 time=0
+control_change channel=0 control=64 value=0 time=4
+control_change channel=0 control=64 value=127 time=236
 note_on channel=0 note=40 velocity=0 time=240
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=55 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=107
 note_on channel=0 note=72 velocity=35 time=27
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=63 velocity=21 time=0
 note_on channel=0 note=66 velocity=21 time=0
 note_on channel=0 note=69 velocity=21 time=0
@@ -4993,8 +5334,10 @@ note_on channel=0 note=59 velocity=0 time=0
 note_on channel=0 note=69 velocity=0 time=0
 note_on channel=0 note=63 velocity=0 time=0
 note_on channel=0 note=47 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=71 velocity=0 time=27
 note_on channel=0 note=72 velocity=35 time=26
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=67 velocity=21 time=26
 note_on channel=0 note=64 velocity=21 time=0
 note_on channel=0 note=59 velocity=20 time=0
@@ -5006,7 +5349,9 @@ note_on channel=0 note=52 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=59 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=72 velocity=35 time=27
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=66 velocity=21 time=0
 note_on channel=0 note=69 velocity=21 time=0
 note_on channel=0 note=59 velocity=20 time=0
@@ -5021,10 +5366,14 @@ note_on channel=0 note=47 velocity=0 time=0
 note_on channel=0 note=67 velocity=25 time=0
 note_on channel=0 note=76 velocity=29 time=0
 note_on channel=0 note=52 velocity=20 time=0
+control_change channel=0 control=64 value=0 time=4
+control_change channel=0 control=64 value=127 time=236
 note_on channel=0 note=52 velocity=0 time=240
 note_on channel=0 note=76 velocity=0 time=0
 note_on channel=0 note=67 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=20
 note_on channel=0 note=84 velocity=35 time=27
+control_change channel=0 control=64 value=127 time=187
 note_on channel=0 note=75 velocity=21 time=0
 note_on channel=0 note=78 velocity=21 time=0
 note_on channel=0 note=81 velocity=21 time=0
@@ -5035,6 +5384,7 @@ note_on channel=0 note=81 velocity=0 time=453
 note_on channel=0 note=71 velocity=0 time=0
 note_on channel=0 note=75 velocity=0 time=0
 note_on channel=0 note=78 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=0
 note_on channel=0 note=83 velocity=0 time=27
 note_on channel=0 note=72 velocity=29 time=0
 note_on channel=0 note=72 velocity=0 time=960
@@ -5160,6 +5510,7 @@ note_on channel=0 note=60 velocity=45 time=0
 note_on channel=0 note=64 velocity=45 time=0
 note_on channel=0 note=66 velocity=54 time=0
 note_on channel=0 note=45 velocity=35 time=0
+control_change channel=0 control=64 value=127 time=282
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=60 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
@@ -5168,6 +5519,8 @@ note_on channel=0 note=66 velocity=66 time=0
 note_on channel=0 note=64 velocity=56 time=0
 note_on channel=0 note=61 velocity=56 time=0
 note_on channel=0 note=46 velocity=43 time=0
+control_change channel=0 control=64 value=0 time=11
+control_change channel=0 control=64 value=127 time=171
 note_on channel=0 note=46 velocity=0 time=298
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=64 velocity=0 time=0
@@ -5176,6 +5529,7 @@ note_on channel=0 note=57 velocity=60 time=0
 note_on channel=0 note=63 velocity=60 time=0
 note_on channel=0 note=66 velocity=71 time=0
 note_on channel=0 note=47 velocity=49 time=0
+control_change channel=0 control=64 value=0 time=6
 note_on channel=0 note=66 velocity=0 time=240
 note_on channel=0 note=67 velocity=51 time=0
 note_on channel=0 note=67 velocity=0 time=240
@@ -5227,6 +5581,7 @@ note_on channel=0 note=64 velocity=40 time=0
 note_on channel=0 note=66 velocity=48 time=0
 note_on channel=0 note=33 velocity=26 time=0
 note_on channel=0 note=45 velocity=31 time=0
+control_change channel=0 control=64 value=127 time=298
 note_on channel=0 note=45 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=60 velocity=0 time=0
@@ -5237,6 +5592,8 @@ note_on channel=0 note=64 velocity=34 time=0
 note_on channel=0 note=61 velocity=34 time=0
 note_on channel=0 note=34 velocity=22 time=0
 note_on channel=0 note=46 velocity=26 time=0
+control_change channel=0 control=64 value=0 time=18
+control_change channel=0 control=64 value=127 time=148
 note_on channel=0 note=46 velocity=0 time=0
 note_on channel=0 note=61 velocity=0 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -5247,10 +5604,14 @@ note_on channel=0 note=63 velocity=34 time=0
 note_on channel=0 note=66 velocity=41 time=0
 note_on channel=0 note=35 velocity=22 time=0
 note_on channel=0 note=47 velocity=28 time=0
+control_change channel=0 control=64 value=0 time=8
+control_change channel=0 control=64 value=127 time=148
 note_on channel=0 note=66 velocity=0 time=0
 note_on channel=0 note=69 velocity=26 time=0
 note_on channel=0 note=69 velocity=0 time=0
 note_on channel=0 note=67 velocity=28 time=0
+control_change channel=0 control=64 value=0 time=15
+control_change channel=0 control=64 value=127 time=98
 note_on channel=0 note=67 velocity=0 time=0
 note_on channel=0 note=66 velocity=21 time=0
 note_on channel=0 note=66 velocity=0 time=0
@@ -5261,6 +5622,9 @@ note_on channel=0 note=35 velocity=0 time=0
 note_on channel=0 note=55 velocity=20 time=0
 note_on channel=0 note=64 velocity=24 time=0
 note_on channel=0 note=40 velocity=14 time=0
+control_change channel=0 control=64 value=0 time=13
+control_change channel=0 control=64 value=127 time=174
 note_on channel=0 note=40 velocity=0 time=293
 note_on channel=0 note=64 velocity=0 time=0
 note_on channel=0 note=55 velocity=0 time=0
+control_change channel=0 control=64 value=0 time=80
