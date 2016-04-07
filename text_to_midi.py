@@ -7,31 +7,31 @@ import datetime
 with MidiFile() as new_mid:
     new_track = MidiTrack()
 
-    with open("generated-music/first-long-trainseed1.txt") as f:
+    with open("LearningText/appass_2_format0.mid.txt") as f:
         for line in f:
-            new_track.append(Message('control_change', channel=0, control=64, value=0, time=0))
 
             parts = line.split()
-            if parts[0] == "pitchwheel":
+            #c~0 n!1 v@2 t#3
+            if parts[0] == "pw":
                 if abs(int(float(parts[2].split('=')[1]))) < 8191:
-                    new_track.append(Message('pitchwheel', channel=int(float(parts[1].split('=')[1])),
-                                         pitch=int(float(parts[2].split('=')[1])),
-                                         time=int(float(parts[3].split('=')[1]))))
-            elif parts[0] == "note_on":
-                new_track.append(Message('note_on', channel=int(float(parts[1].split('=')[1])),
-                                         note=int(float(parts[2].split('=')[1])),
-                                         velocity=int(float(parts[3].split('=')[1])),
-                                         time=int(float(parts[4].split('=')[1]))))
-            elif parts[0] == "note_off":
-                new_track.append(Message('note_on', channel=int(float(parts[1].split('=')[1])),
-                                         note=int(float(parts[2].split('=')[1])),
-                                         velocity=int(float(parts[3].split('=')[1])),
-                                         time=int(float(parts[4].split('=')[1]))))
-            elif parts[0] == "control_change":
-                new_track.append(Message('control_change', channel=int(float(parts[1].split('=')[1])),
-                                         control=int(float(parts[2].split('=')[1])),
-                                         value=int(float(parts[3].split('=')[1])),
-                                         time=int(float(parts[4].split('=')[1]))))
+                    new_track.append(Message('pitchwheel', channel=int(float(parts[1].split('~')[1])),
+                                         pitch=int(float(parts[2].split('*')[1])),
+                                         time=int(float(parts[3].split('#')[1]))))
+            elif parts[0] == "no":
+                new_track.append(Message('note_on', channel=int(float(parts[1].split('~')[1])),
+                                         note=int(float(parts[2].split('!')[1])),
+                                         velocity=int(float(parts[3].split('%')[1])),
+                                         time=int(float(parts[4].split('#')[1]))))
+            elif parts[0] == "nf":
+                new_track.append(Message('note_on', channel=int(float(parts[1].split('~')[1])),
+                                         note=int(float(parts[2].split('!')[1])),
+                                         velocity=int(float(parts[3].split('%')[1])),
+                                         time=int(float(parts[4].split('#')[1]))))
+            # elif parts[0] == "cc":
+            #     new_track.append(Message('control_change', channel=int(float(parts[1].split('~')[1])),
+            #                              control=int(float(parts[2].split('^')[1])),
+            #                              value=int(float(parts[3].split('@')[1])),
+            #                              time=int(float(parts[4].split('#')[1]))))
             else:
                 print(parts[0])
 
