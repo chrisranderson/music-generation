@@ -3,12 +3,13 @@ import mido
 
 class Note:
 
-    def __init__(self, instrument, note, velocity, time_delta = None, absolute_start = None):
+    def __init__(self, instrument, note, velocity, time_delta = None, absolute_start = None, duration = None):
         self.instrument = instrument
         self.note = note
         self.velocity = velocity
         self.time_delta = time_delta
         self.absolute_start = absolute_start
+        self.duration = duration
 
     def add_duration(self, current_time):
         self.duration = current_time - self.absolute_start
@@ -18,6 +19,9 @@ class Note:
 
     def get_note_on(self, time_delta):
         return mido.Message('note_on', channel=self.instrument, note=self.note, velocity=self.velocity, time=time_delta)
+
+    def get_note_on(self):
+        return mido.Message('note_on', channel=self.instrument, note=self.note, velocity=self.velocity, time=self.time_delta)
 
     def get_note_off(self, time_delta):
         return mido.Message('note_off', self.instrument, self.note, self.velocity, time_delta)

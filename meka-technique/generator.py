@@ -2,6 +2,8 @@ import os
 import arff
 import numpy as np
 from music import Music
+from song import Song
+from note import Note
 
 from sklearn import tree
 
@@ -33,16 +35,35 @@ class Generator:
         self.velocity_clf = tree.DecisionTreeClassifier()
         self.velocity_clf = self.velocity_clf.fit(velocity_data[:,:-1], velocity_data[:,-1:])
         print 'training duration'
-        self.duration_clf = tree.DecisionTreeClassifier()
+        self.duration_clf = tree.DecisionTreeRegressor()
         self.duration_clf = self.duration_clf.fit(duration_data[:,:-1], duration_data[:,-1:])
         print 'training time_delta'
-        self.time_delta_clf = tree.DecisionTreeClassifier()
+        self.time_delta_clf = tree.DecisionTreeRegressor()
         self.time_delta_clf = self.time_delta_clf.fit(time_delta_data[:,:-1], time_delta_data[:,-1:])
 
 
-    def generate_song(self):
-        pass
+    def generate_song(self, filename):
+        self.song = Song()
+
+        self.song.add_note(self.get_seed_note())
+
+        for iter in range(1000):
+            notes = self.song.get_last_notes()
+            print notes
+            instrument = self.instrument_clf.predict(notes)[0]
+            note = self.note_clf.predict(notes)[0]
+            velocity = self.velocity_clf.predict(notes)[0]
+            note_duration = self.duration_clf.predict(notes)[0]
+            time_delta = self.time_delta_clf.predict(notes)[0]
+
+            self.song.add_note(Note(int(instrument), int(note), int(velocity), int(time_delta), duration=int(note_duration)))
+
+        self.song.write_file(filename)
+
+    def get_seed_note(self):
+        return Note(0, 3, 3, 0, duration = 1000)
 
 generator = Generator()
-generator.write_arffs()
+#generator.write_arffs()
 generator.train()
+generator.generate_song('generated.mid')

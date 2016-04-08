@@ -68,8 +68,12 @@ class Song:
                     pass
                     # some stuff
                 else:
-                    new_track.append(note.get_note_on(note_start - current_time))
-                    current_time = note_start
+                    if note_start != None:
+                        new_track.append(note.get_note_on(note_start - current_time))
+                        current_time = note_start
+                    else:
+                        new_track.append(note.get_note_on())
+                        current_time += int(note.time_delta)
 
             midi_song.tracks.append(new_track)
             midi_song.save(file_name)
@@ -96,6 +100,24 @@ class Song:
 
         return array, self.notes[self.counter].get_note_array()
 
+    def get_last_notes(self, n = 5):
+
+        print(self.notes[0])
+        array = []
+
+        if n < len(self.notes):
+            number_notes = n
+        else:
+            number_notes = len(self.notes)
+
+        for empty_note in range(n - number_notes):
+            array += [-1, -1, -1, -1, -1]
+
+        for note_index in range(len(self.notes) - number_notes, len(self.notes)):
+            array += self.notes[note_index].get_note_array()
+
+        return array
+
     def get_arff_arrays(self):
 
         # TODO: Convert these all to numpy arrays.
@@ -114,6 +136,9 @@ class Song:
             array_time_delta.append(next_line + [ output[4] ])
 
         return array_instrument, array_note, array_velocity, array_duration, array_time_delta
+
+    def add_note(self, note):
+        self.notes.append(note)
 
 # song = Song()
 # song.read_file("../Rollinginthedeep.mid")
