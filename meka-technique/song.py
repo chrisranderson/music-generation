@@ -24,19 +24,20 @@ class Song:
                 current_time += message.time
 
                 if message.type == "note_on":
-                    elapsed_time = 0
-
                     # Create a new note for this note_on (no time information yet)
                     note = Note(message.channel, message.note, message.velocity, elapsed_time, current_time)
 
                     self.notes.append(note)
 
+                    elapsed_time = 0
+
                 elif message.type == "note_off":
                     end_note = Note(message.channel, message.note, message.velocity)
 
-                    for note in self.notes:
-                        if note == end_note:
+                    for note in reversed(self.notes):
+                        if note == end_note and note.duration == None:
                             note.add_duration(current_time)
+                            break
 
                 # If we haven't started a new note, we need to increment
                 # the elapsed time since the last note
@@ -52,6 +53,7 @@ class Song:
             new_track = MidiTrack()
 
             for note in self.notes:
+                note.absolute_start = current_time + note.time_delta
                 note_start = note.absolute_start
 
                 best_end = float("inf")
@@ -65,15 +67,11 @@ class Song:
                         best_end_note = unused_note
 
                 if best_end < note_start:
-                    pass
-                    # some stuff
+                    new_track.append(best_end_note.get_note_off(best_end - current_time))
+                    current_time = best_end
                 else:
-                    if note_start != None:
-                        new_track.append(note.get_note_on(note_start - current_time))
-                        current_time = note_start
-                    else:
-                        new_track.append(note.get_note_on())
-                        current_time += int(note.time_delta)
+                    new_track.append(note.get_note_on())
+                    current_time = note_start
 
             midi_song.tracks.append(new_track)
             midi_song.save(file_name)
@@ -88,12 +86,13 @@ class Song:
 
         array = []
 
+        # Bug - This assumes that there are more than n notes
         number_notes = n - max(n - self.counter, 0)
 
         for empty_note in range(max(n - self.counter, 0)):
             array += [-1, -1, -1, -1, -1]
 
-        for note_index in range(number_notes):
+        for note_index in reversed(range(number_notes)):
             array += self.notes[self.counter - note_index].get_note_array()
 
         self.counter += 1
@@ -102,7 +101,6 @@ class Song:
 
     def get_last_notes(self, n = 5):
 
-        print(self.notes[0])
         array = []
 
         if n < len(self.notes):

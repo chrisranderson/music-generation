@@ -49,7 +49,6 @@ class Generator:
 
         for iter in range(1000):
             notes = self.song.get_last_notes()
-            print notes
             instrument = self.instrument_clf.predict(notes)[0]
             note = self.note_clf.predict(notes)[0]
             velocity = self.velocity_clf.predict(notes)[0]
@@ -64,6 +63,6 @@ class Generator:
         return Note(0, 3, 3, 0, duration = 1000)
 
 generator = Generator()
-#generator.write_arffs()
+generator.write_arffs()
 generator.train()
 generator.generate_song('generated.mid')
