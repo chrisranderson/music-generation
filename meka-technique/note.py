@@ -1,8 +1,9 @@
 import mido
 
+
 class Note:
 
-    def __init__(self, instrument, note, velocity, time_delta = None, absolute_start = None, duration = None):
+    def __init__(self, instrument, note, velocity, time_delta=None, absolute_start=None, duration=None):
         self.instrument = instrument
         self.note = note
         self.velocity = velocity
@@ -36,4 +37,4 @@ class Note:
         return True
 
     def __str__(self):
-        return `self.instrument` + " " + `self.note` + " " + `self.duration`
+        return `self.instrument` + ' ' + `self.note` + ' ' + `self.duration`
