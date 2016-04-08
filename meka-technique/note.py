@@ -1,4 +1,3 @@
-from mido import Message
 import mido
 
 class Note:
@@ -16,9 +15,6 @@ class Note:
 
     def get_absolute_end(self):
         return self.absolute_start + self.duration
-
-    def get_note_on(self, time_delta):
-        return mido.Message('note_on', channel=self.instrument, note=self.note, velocity=self.velocity, time=time_delta)
 
     def get_note_on(self):
         return mido.Message('note_on', channel=self.instrument, note=self.note, velocity=self.velocity, time=self.time_delta)
@@ -41,4 +37,3 @@ class Note:
 
     def __str__(self):
         return `self.instrument` + " " + `self.note` + " " + `self.duration`
-

@@ -1,11 +1,7 @@
-from mido import MidiFile
-from mido.midifiles import MidiTrack
-
 import copy
 import arff
 import numpy as np
 
-from note import Note
 from song import Song
 
 arff_format = {

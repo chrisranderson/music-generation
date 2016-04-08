@@ -1,5 +1,4 @@
 import os
-import arff
 import numpy as np
 from music import Music
 from song import Song
@@ -13,10 +12,10 @@ class Generator:
         self.music = Music()
 
     def write_arffs(self):
-        for file in os.listdir('midi'):
-            if os.path.isfile('midi/' + file):
-                print 'adding midi/' + file
-                self.music.load_song('midi/' + file)
+        for next_file in os.listdir('midi'):
+            if os.path.isfile('midi/' + next_file):
+                print 'adding midi/' + next_file
+                self.music.load_song('midi/' + next_file)
 
         print 'generating arff files'
         self.music.write_arff('test')
@@ -47,8 +46,10 @@ class Generator:
 
         self.song.add_note(self.get_seed_note())
 
-        for iter in range(1000):
+        print 'generating new song'
+        for _ in range(1000):
             notes = self.song.get_last_notes()
+            notes = np.array(notes).reshape(1, -1)
             instrument = self.instrument_clf.predict(notes)[0]
             note = self.note_clf.predict(notes)[0]
             velocity = self.velocity_clf.predict(notes)[0]
@@ -57,6 +58,7 @@ class Generator:
 
             self.song.add_note(Note(int(instrument), int(note), int(velocity), int(time_delta), duration=int(note_duration)))
 
+        print 'writing song to ' + filename
         self.song.write_file(filename)
 
     def get_seed_note(self):

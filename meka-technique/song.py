@@ -9,8 +9,8 @@ class Song:
         self.notes = []
         self.counter = 0
 
-    def read_file(self, file):
-        mid = MidiFile(file)
+    def read_file(self, filename):
+        mid = MidiFile(filename)
 
         # An internal clock that keeps track of current time based on the
         # cumulative elapsed time delta of each note
@@ -18,10 +18,12 @@ class Song:
 
         elapsed_time = 0
 
-        for i, track in enumerate(mid.tracks):
+        for _, track in enumerate(mid.tracks):
             for message in track:
                 # Increment internal clock
                 current_time += message.time
+                
+                current_time
 
                 if message.type == "note_on":
                     # Create a new note for this note_on (no time information yet)
@@ -46,7 +48,7 @@ class Song:
                     elapsed_time += message.time
 
 
-    def write_file(self, file_name = None):
+    def write_file(self, filename = None):
         with MidiFile() as midi_song:
             unused_notes = []
             current_time = 0
@@ -74,7 +76,7 @@ class Song:
                     current_time = note_start
 
             midi_song.tracks.append(new_track)
-            midi_song.save(file_name)
+            midi_song.save(filename)
 
     def has_next_note(self):
         return self.counter < len(self.notes)
@@ -89,7 +91,7 @@ class Song:
         # Bug - This assumes that there are more than n notes
         number_notes = n - max(n - self.counter, 0)
 
-        for empty_note in range(max(n - self.counter, 0)):
+        for _ in range(max(n - self.counter, 0)):
             array += [-1, -1, -1, -1, -1]
 
         for note_index in reversed(range(number_notes)):
@@ -108,7 +110,7 @@ class Song:
         else:
             number_notes = len(self.notes)
 
-        for empty_note in range(n - number_notes):
+        for _ in range(n - number_notes):
             array += [-1, -1, -1, -1, -1]
 
         for note_index in range(len(self.notes) - number_notes, len(self.notes)):
@@ -125,7 +127,7 @@ class Song:
         array_duration = []
         array_time_delta = []
 
-        for note_index in range(len(self.notes) - 1):
+        for _ in range(len(self.notes) - 1):
             next_line, output = self.get_next_note_as_arff()
             array_instrument.append(next_line + [ output[0] ])
             array_note.append(next_line + [ output[1] ])
