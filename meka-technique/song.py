@@ -58,7 +58,7 @@ class Song:
                 best_end_note = None
 
                 for unused_note in unused_notes:
-                    this_end = unusued_note.get_absolute_end()
+                    this_end = unused_note.get_absolute_end()
 
                     if this_end < best_end:
                         best_end = this_end
@@ -68,7 +68,6 @@ class Song:
                     pass
                     # some stuff
                 else:
-                    print("adding ", note.get_note_on(note_start - current_time))
                     new_track.append(note.get_note_on(note_start - current_time))
                     current_time = note_start
 
@@ -108,8 +107,6 @@ class Song:
 
         for note_index in range(len(self.notes) - 1):
             next_line, output = self.get_next_note_as_arff()
-            print next_line
-            print output
             array_instrument.append(next_line + [ output[0] ])
             array_note.append(next_line + [ output[1] ])
             array_velocity.append(next_line + [ output[2] ])

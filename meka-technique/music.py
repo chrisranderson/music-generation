@@ -3,6 +3,7 @@ from mido.midifiles import MidiTrack
 
 import copy
 import arff
+import numpy as np
 
 from note import Note
 from song import Song
@@ -75,12 +76,29 @@ class Music:
                 duration_arff['data'] += array_duration
                 time_delta_arff['data'] += array_time_delta
 
+            print 'writing file ' + instrument_file.name
             arff.dump(instrument_arff, instrument_file)
+            print 'writing file ' + note_file.name
             arff.dump(note_arff, note_file)
+            print 'writing file ' + velocity_file.name
             arff.dump(velocity_arff, velocity_file)
+            print 'writing file ' + duration_file.name
             arff.dump(duration_arff, duration_file)
+            print 'writing file ' + time_delta_file.name
             arff.dump(time_delta_arff, time_delta_file)
 
+    def read_arff(self, filename):
+        instrument_arff = arff.load(open(filename + '_instrument.arff', 'rb'))
+        note_arff = arff.load(open(filename + '_note.arff', 'rb'))
+        velocity_arff = arff.load(open(filename + '_velocity.arff', 'rb'))
+        duration_arff = arff.load(open(filename + '_duration.arff', 'rb'))
+        time_delta_arff = arff.load(open(filename + '_time_delta.arff', 'rb'))
 
+        instrument_data = np.array(instrument_arff['data'])
+        note_data = np.array(note_arff['data'])
+        velocity_data = np.array(velocity_arff['data'])
+        duration_data = np.array(duration_arff['data'])
+        time_delta_data = np.array(time_delta_arff['data'])
 
+        return instrument_data, note_data, velocity_data, duration_data, time_delta_data
 
