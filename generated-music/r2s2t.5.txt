@@ -1,0 +1,11 @@
+	
+	
+Usage: [options] 
+  -checkpoint  [cv/checkpoint_4000.t7]
+  -length      [2000]
+  -start_text  []
+  -sample      [1]
+  -temperature [1]
+  -gpu         [0]
+  -gpu_backend [cuda]
+  -verbose     [0]
