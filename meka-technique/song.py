@@ -1,3 +1,4 @@
+import mido
 from mido import MidiFile
 from mido.midifiles import MidiTrack
 
@@ -56,6 +57,15 @@ class Song:
             unused_notes = []
             current_time = 0
             new_track = MidiTrack()
+            new_track.append(mido.Message('program_change', channel=1, program=29, time=5))
+            new_track.append(mido.Message('program_change', channel=2, program=30, time=5))
+            new_track.append(mido.Message('program_change', channel=3, program=31, time=5))
+            new_track.append(mido.Message('program_change', channel=4, program=32, time=5))
+            new_track.append(mido.Message('program_change', channel=5, program=33, time=5))
+            new_track.append(mido.Message('program_change', channel=6, program=34, time=5))
+            new_track.append(mido.Message('program_change', channel=7, program=35, time=5))
+            new_track.append(mido.Message('program_change', channel=8, program=36, time=5))
+            new_track.append(mido.Message('program_change', channel=9, program=37, time=5))
 
             for note in self.notes:
                 note.absolute_start = current_time + note.time_delta
@@ -74,9 +84,11 @@ class Song:
                 if best_end < note_start:
                     new_track.append(
                         best_end_note.get_note_off(best_end - current_time))
+                    unused_notes.remove(note)
                     current_time = best_end
                 else:
                     new_track.append(note.get_note_on())
+                    unused_notes.append(note)
                     current_time = note_start
 
             midi_song.tracks.append(new_track)
@@ -96,7 +108,7 @@ class Song:
         number_notes = n - max(n - self.counter, 0)
 
         for _ in range(max(n - self.counter, 0)):
-            array += [-1, -1, -1, -1, -1]
+            array += [1000, 1000, 1000, -1, -1]
 
         for note_index in reversed(range(number_notes)):
             array += self.notes[self.counter - note_index].get_note_array()
@@ -115,7 +127,7 @@ class Song:
             number_notes = len(self.notes)
 
         for _ in range(n - number_notes):
-            array += [-1, -1, -1, -1, -1]
+            array += [1000, 1000, 1000, -1, -1]
 
         for note_index in range(len(self.notes) - number_notes, len(self.notes)):
             array += self.notes[note_index].get_note_array()
@@ -137,7 +149,8 @@ class Song:
             array_note.append(next_line + [output[1]])
             array_velocity.append(next_line + [output[2]])
             array_duration.append(next_line + [output[3]])
-            array_time_delta.append(next_line + [output[4]])
+            if output[4] != 0:
+                array_time_delta.append(next_line + [output[4]])
 
         return array_instrument, array_note, array_velocity, array_duration, array_time_delta
 

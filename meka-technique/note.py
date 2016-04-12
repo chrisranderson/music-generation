@@ -6,7 +6,7 @@ class Note:
     def __init__(self, instrument, note, velocity, time_delta=None, absolute_start=None, duration=None):
         self.instrument = instrument
         self.note = note
-        self.velocity = velocity
+        self.velocity = 100
         self.time_delta = time_delta
         self.absolute_start = absolute_start
         self.duration = duration
@@ -16,14 +16,18 @@ class Note:
 
     def get_absolute_end(self):
         return self.absolute_start + self.duration
+    
+    def get_time(self):
+        return self.time_delta
 
     def get_note_on(self):
         return mido.Message('note_on', channel=self.instrument, note=self.note, velocity=self.velocity, time=self.time_delta)
 
     def get_note_off(self, time_delta):
-        return mido.Message('note_off', self.instrument, self.note, self.velocity, time_delta)
+        return mido.Message('note_off', channel=self.instrument, note=self.note, velocity=self.velocity, time=time_delta)
 
     def get_note_array(self):
+        self.duration = 50
         return [self.instrument, self.note, self.velocity, self.duration, self.time_delta]
 
     def __eq__(self, other):
@@ -37,4 +41,4 @@ class Note:
         return True
 
     def __str__(self):
-        return `self.instrument` + ' ' + `self.note` + ' ' + `self.duration`
+        return `self.instrument` + ' ' + `self.note` + ' ' + `self.duration` + ' ' + `self.time_delta`
